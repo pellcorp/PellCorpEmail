@@ -64,7 +64,7 @@ import java.util.HashSet;
  */
 public class NotificationController {
     private static final int NOTIFICATION_ID_SECURITY_NEEDED = 1;
-    /** Reserved for {@link com.android.exchange.CalendarSyncEnabler} */
+    /** Reserved for {@link com.pellcorp.exchange.CalendarSyncEnabler} */
     @SuppressWarnings("unused")
     private static final int NOTIFICATION_ID_EXCHANGE_CALENDAR_ADDED = 2;
     private static final int NOTIFICATION_ID_ATTACHMENT_WARNING = 3;
