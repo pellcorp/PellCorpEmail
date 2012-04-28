@@ -1,0 +1,6 @@
+Copy to Android/packages/apps
+$ source build/envsetups.sh
+tapas PellCorpEmail
+make
+
+The out/target/product/generic/system/app/PellCorpEmail.apk can be installed
