@@ -237,10 +237,10 @@ public class SecurityPolicy {
         // encryption (which requires low-level systems support).  Other policies are fully
         // supported by the framework and do not need to be checked.
         if (policy.mRequireEncryption) {
-            int encryptionStatus = getDPM().getStorageEncryptionStatus();
-            if (encryptionStatus == DevicePolicyManager.ENCRYPTION_STATUS_UNSUPPORTED) {
+        //    int encryptionStatus = getDPM().getStorageEncryptionStatus();
+        //    if (encryptionStatus == DevicePolicyManager.ENCRYPTION_STATUS_UNSUPPORTED) {
                 return false;
-            }
+        //    }
         }
 
         // If we ever support devices that can't disable cameras for any reason, we should
@@ -264,10 +264,10 @@ public class SecurityPolicy {
         // encryption (which requires low-level systems support).  Other policies are fully
         // supported by the framework and do not need to be checked.
         if (policy.mRequireEncryption) {
-            int encryptionStatus = getDPM().getStorageEncryptionStatus();
-            if (encryptionStatus == DevicePolicyManager.ENCRYPTION_STATUS_UNSUPPORTED) {
+            //int encryptionStatus = getDPM().getStorageEncryptionStatus();
+            //if (encryptionStatus == DevicePolicyManager.ENCRYPTION_STATUS_UNSUPPORTED) {
                 policy.mRequireEncryption = false;
-            }
+            //}
         }
 
         // If we ever support devices that can't disable cameras for any reason, we should
