@@ -20,18 +20,18 @@ import android.content.Context;
 import android.util.Base64;
 import android.util.Log;
 
-import com.android.emailcommon.Logging;
-import com.android.emailcommon.internet.Rfc822Output;
-import com.android.emailcommon.mail.Address;
-import com.android.emailcommon.mail.AuthenticationFailedException;
-import com.android.emailcommon.mail.CertificateValidationException;
-import com.android.emailcommon.mail.MessagingException;
-import com.android.emailcommon.provider.Account;
-import com.android.emailcommon.provider.EmailContent.Message;
-import com.android.emailcommon.provider.HostAuth;
 import com.pellcorp.email.Email;
 import com.pellcorp.email.mail.Sender;
 import com.pellcorp.email.mail.Transport;
+import com.pellcorp.emailcommon.Logging;
+import com.pellcorp.emailcommon.internet.Rfc822Output;
+import com.pellcorp.emailcommon.mail.Address;
+import com.pellcorp.emailcommon.mail.AuthenticationFailedException;
+import com.pellcorp.emailcommon.mail.CertificateValidationException;
+import com.pellcorp.emailcommon.mail.MessagingException;
+import com.pellcorp.emailcommon.provider.Account;
+import com.pellcorp.emailcommon.provider.HostAuth;
+import com.pellcorp.emailcommon.provider.EmailContent.Message;
 
 import java.io.IOException;
 import java.net.Inet6Address;

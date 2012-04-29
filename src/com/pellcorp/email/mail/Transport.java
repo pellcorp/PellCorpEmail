@@ -16,8 +16,8 @@
 
 package com.pellcorp.email.mail;
 
-import com.android.emailcommon.mail.CertificateValidationException;
-import com.android.emailcommon.mail.MessagingException;
+import com.pellcorp.emailcommon.mail.CertificateValidationException;
+import com.pellcorp.emailcommon.mail.MessagingException;
 
 import java.io.IOException;
 import java.io.InputStream;

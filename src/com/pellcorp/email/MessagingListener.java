@@ -16,7 +16,7 @@
 
 package com.pellcorp.email;
 
-import com.android.emailcommon.mail.MessagingException;
+import com.pellcorp.emailcommon.mail.MessagingException;
 
 import android.content.Context;
 

@@ -25,13 +25,13 @@ import android.view.View;
 import android.view.View.OnClickListener;
 
 import com.pellcorp.email.R;
-import com.android.emailcommon.Logging;
-import com.android.emailcommon.provider.Account;
-import com.android.emailcommon.provider.EmailContent.Message;
-import com.android.emailcommon.provider.Mailbox;
 import com.pellcorp.email.activity.ShortcutPickerFragment.AccountShortcutPickerFragment;
 import com.pellcorp.email.activity.ShortcutPickerFragment.MailboxShortcutPickerFragment;
 import com.pellcorp.email.activity.ShortcutPickerFragment.PickerCallback;
+import com.pellcorp.emailcommon.Logging;
+import com.pellcorp.emailcommon.provider.Account;
+import com.pellcorp.emailcommon.provider.Mailbox;
+import com.pellcorp.emailcommon.provider.EmailContent.Message;
 
 /**
  * This class implements a launcher shortcut for directly accessing a single account.

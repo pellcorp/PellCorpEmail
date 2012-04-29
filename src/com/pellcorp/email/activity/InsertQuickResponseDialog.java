@@ -17,9 +17,9 @@
 package com.pellcorp.email.activity;
 
 import com.pellcorp.email.R;
-import com.android.emailcommon.provider.Account;
-import com.android.emailcommon.utility.EmailAsyncTask;
 import com.pellcorp.email.activity.setup.AccountSettingsEditQuickResponsesFragment.QuickResponseFinder;
+import com.pellcorp.emailcommon.provider.Account;
+import com.pellcorp.emailcommon.utility.EmailAsyncTask;
 
 import android.app.AlertDialog;
 import android.app.Dialog;

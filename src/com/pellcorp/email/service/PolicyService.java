@@ -16,9 +16,9 @@
 
 package com.pellcorp.email.service;
 
-import com.android.emailcommon.provider.Policy;
-import com.android.emailcommon.service.IPolicyService;
 import com.pellcorp.email.SecurityPolicy;
+import com.pellcorp.emailcommon.provider.Policy;
+import com.pellcorp.emailcommon.service.IPolicyService;
 
 import android.app.Service;
 import android.content.Context;

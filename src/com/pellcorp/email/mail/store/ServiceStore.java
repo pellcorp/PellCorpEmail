@@ -20,12 +20,12 @@ import android.content.Context;
 import android.os.Bundle;
 import android.os.RemoteException;
 
-import com.android.emailcommon.mail.MessagingException;
-import com.android.emailcommon.provider.Account;
-import com.android.emailcommon.provider.HostAuth;
-import com.android.emailcommon.service.EmailServiceProxy;
-import com.android.emailcommon.service.IEmailService;
 import com.pellcorp.email.mail.Store;
+import com.pellcorp.emailcommon.mail.MessagingException;
+import com.pellcorp.emailcommon.provider.Account;
+import com.pellcorp.emailcommon.provider.HostAuth;
+import com.pellcorp.emailcommon.service.EmailServiceProxy;
+import com.pellcorp.emailcommon.service.IEmailService;
 
 /**
  * Base class for service-based stores

@@ -42,7 +42,7 @@ import android.view.View;
 import android.view.accessibility.AccessibilityEvent;
 
 import com.pellcorp.email.R;
-import com.android.emailcommon.utility.TextUtilities;
+import com.pellcorp.emailcommon.utility.TextUtilities;
 import com.google.common.base.Objects;
 
 /**

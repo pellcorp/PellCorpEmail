@@ -19,10 +19,6 @@ package com.pellcorp.email.mail.store;
 import android.text.TextUtils;
 import android.util.Log;
 
-import com.android.emailcommon.Logging;
-import com.android.emailcommon.mail.AuthenticationFailedException;
-import com.android.emailcommon.mail.CertificateValidationException;
-import com.android.emailcommon.mail.MessagingException;
 import com.pellcorp.email.Email;
 import com.pellcorp.email.mail.Transport;
 import com.pellcorp.email.mail.store.ImapStore.ImapException;
@@ -33,6 +29,10 @@ import com.pellcorp.email.mail.store.imap.ImapResponseParser;
 import com.pellcorp.email.mail.store.imap.ImapUtility;
 import com.pellcorp.email.mail.transport.DiscourseLogger;
 import com.pellcorp.email.mail.transport.MailTransport;
+import com.pellcorp.emailcommon.Logging;
+import com.pellcorp.emailcommon.mail.AuthenticationFailedException;
+import com.pellcorp.emailcommon.mail.CertificateValidationException;
+import com.pellcorp.emailcommon.mail.MessagingException;
 
 import java.io.IOException;
 import java.util.ArrayList;

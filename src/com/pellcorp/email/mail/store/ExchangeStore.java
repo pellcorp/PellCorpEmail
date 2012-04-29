@@ -18,11 +18,11 @@ package com.pellcorp.email.mail.store;
 
 import android.content.Context;
 
-import com.android.emailcommon.mail.MessagingException;
-import com.android.emailcommon.provider.Account;
-import com.android.emailcommon.service.IEmailService;
 import com.pellcorp.email.mail.Store;
 import com.pellcorp.email.service.EmailServiceUtils;
+import com.pellcorp.emailcommon.mail.MessagingException;
+import com.pellcorp.emailcommon.provider.Account;
+import com.pellcorp.emailcommon.service.IEmailService;
 
 /**
  * Our Exchange service does not use the sender/store model.

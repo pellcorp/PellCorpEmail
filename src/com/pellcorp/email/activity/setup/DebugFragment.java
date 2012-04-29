@@ -17,12 +17,12 @@
 package com.pellcorp.email.activity.setup;
 
 import com.pellcorp.email.R;
-import com.android.emailcommon.Logging;
 import com.pellcorp.email.Email;
 import com.pellcorp.email.Preferences;
 import com.pellcorp.email.activity.UiUtilities;
 import com.pellcorp.email.service.EmailServiceUtils;
 import com.pellcorp.email.service.MailService;
+import com.pellcorp.emailcommon.Logging;
 
 import android.app.Fragment;
 import android.content.Context;

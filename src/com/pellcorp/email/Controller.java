@@ -31,32 +31,32 @@ import android.os.RemoteException;
 import android.util.Log;
 
 import com.pellcorp.email.R;
-import com.android.emailcommon.Api;
-import com.android.emailcommon.Logging;
-import com.android.emailcommon.mail.AuthenticationFailedException;
-import com.android.emailcommon.mail.Folder.MessageRetrievalListener;
-import com.android.emailcommon.mail.MessagingException;
-import com.android.emailcommon.provider.Account;
-import com.android.emailcommon.provider.EmailContent;
-import com.android.emailcommon.provider.EmailContent.Attachment;
-import com.android.emailcommon.provider.EmailContent.Body;
-import com.android.emailcommon.provider.EmailContent.MailboxColumns;
-import com.android.emailcommon.provider.EmailContent.Message;
-import com.android.emailcommon.provider.EmailContent.MessageColumns;
-import com.android.emailcommon.provider.HostAuth;
-import com.android.emailcommon.provider.Mailbox;
-import com.android.emailcommon.service.EmailServiceStatus;
-import com.android.emailcommon.service.IEmailService;
-import com.android.emailcommon.service.IEmailServiceCallback;
-import com.android.emailcommon.service.SearchParams;
-import com.android.emailcommon.utility.AttachmentUtilities;
-import com.android.emailcommon.utility.EmailAsyncTask;
-import com.android.emailcommon.utility.Utility;
 import com.google.common.annotations.VisibleForTesting;
 import com.pellcorp.email.mail.store.Pop3Store.Pop3Message;
 import com.pellcorp.email.provider.AccountBackupRestore;
 import com.pellcorp.email.service.EmailServiceUtils;
 import com.pellcorp.email.service.MailService;
+import com.pellcorp.emailcommon.Api;
+import com.pellcorp.emailcommon.Logging;
+import com.pellcorp.emailcommon.mail.AuthenticationFailedException;
+import com.pellcorp.emailcommon.mail.MessagingException;
+import com.pellcorp.emailcommon.mail.Folder.MessageRetrievalListener;
+import com.pellcorp.emailcommon.provider.Account;
+import com.pellcorp.emailcommon.provider.EmailContent;
+import com.pellcorp.emailcommon.provider.HostAuth;
+import com.pellcorp.emailcommon.provider.Mailbox;
+import com.pellcorp.emailcommon.provider.EmailContent.Attachment;
+import com.pellcorp.emailcommon.provider.EmailContent.Body;
+import com.pellcorp.emailcommon.provider.EmailContent.MailboxColumns;
+import com.pellcorp.emailcommon.provider.EmailContent.Message;
+import com.pellcorp.emailcommon.provider.EmailContent.MessageColumns;
+import com.pellcorp.emailcommon.service.EmailServiceStatus;
+import com.pellcorp.emailcommon.service.IEmailService;
+import com.pellcorp.emailcommon.service.IEmailServiceCallback;
+import com.pellcorp.emailcommon.service.SearchParams;
+import com.pellcorp.emailcommon.utility.AttachmentUtilities;
+import com.pellcorp.emailcommon.utility.EmailAsyncTask;
+import com.pellcorp.emailcommon.utility.Utility;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -1361,7 +1361,7 @@ public class Controller {
         }
 
         @Override
-        public void messageRetrieved(com.android.emailcommon.mail.Message message) {
+        public void messageRetrieved(com.pellcorp.emailcommon.mail.Message message) {
         }
     }
 

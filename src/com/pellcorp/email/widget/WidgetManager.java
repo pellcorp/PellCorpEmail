@@ -20,10 +20,10 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.util.Log;
 
-import com.android.emailcommon.Logging;
-import com.android.emailcommon.provider.Account;
-import com.android.emailcommon.provider.Mailbox;
 import com.pellcorp.email.Email;
+import com.pellcorp.emailcommon.Logging;
+import com.pellcorp.emailcommon.provider.Account;
+import com.pellcorp.emailcommon.provider.Mailbox;
 
 import java.io.FileDescriptor;
 import java.io.PrintWriter;

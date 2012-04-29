@@ -32,15 +32,15 @@ import android.widget.PopupMenu;
 import android.widget.PopupMenu.OnMenuItemClickListener;
 
 import com.pellcorp.email.R;
-import com.android.emailcommon.mail.MeetingInfo;
-import com.android.emailcommon.mail.PackedString;
-import com.android.emailcommon.provider.Account;
-import com.android.emailcommon.provider.EmailContent.Message;
-import com.android.emailcommon.provider.Mailbox;
-import com.android.emailcommon.service.EmailServiceConstants;
-import com.android.emailcommon.utility.Utility;
 import com.pellcorp.email.Email;
 import com.pellcorp.email.Preferences;
+import com.pellcorp.emailcommon.mail.MeetingInfo;
+import com.pellcorp.emailcommon.mail.PackedString;
+import com.pellcorp.emailcommon.provider.Account;
+import com.pellcorp.emailcommon.provider.Mailbox;
+import com.pellcorp.emailcommon.provider.EmailContent.Message;
+import com.pellcorp.emailcommon.service.EmailServiceConstants;
+import com.pellcorp.emailcommon.utility.Utility;
 
 /**
  * A {@link MessageViewFragmentBase} subclass for regular email messages.  (regular as in "not eml

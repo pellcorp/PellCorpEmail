@@ -17,13 +17,13 @@
 package com.pellcorp.email.activity.setup;
 
 import com.pellcorp.email.R;
-import com.android.emailcommon.Logging;
-import com.android.emailcommon.provider.EmailContent;
-import com.android.emailcommon.provider.Account;
-import com.android.emailcommon.provider.QuickResponse;
-import com.android.emailcommon.utility.EmailAsyncTask;
 import com.pellcorp.email.Email;
 import com.pellcorp.email.activity.UiUtilities;
+import com.pellcorp.emailcommon.Logging;
+import com.pellcorp.emailcommon.provider.Account;
+import com.pellcorp.emailcommon.provider.EmailContent;
+import com.pellcorp.emailcommon.provider.QuickResponse;
+import com.pellcorp.emailcommon.utility.EmailAsyncTask;
 
 import android.app.Activity;
 import android.app.Fragment;

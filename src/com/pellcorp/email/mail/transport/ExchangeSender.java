@@ -16,9 +16,9 @@
 
 package com.pellcorp.email.mail.transport;
 
-import com.android.emailcommon.mail.MessagingException;
-import com.android.emailcommon.provider.Account;
 import com.pellcorp.email.mail.Sender;
+import com.pellcorp.emailcommon.mail.MessagingException;
+import com.pellcorp.emailcommon.provider.Account;
 
 import android.content.Context;
 

@@ -35,18 +35,18 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 import com.pellcorp.email.R;
-import com.android.emailcommon.Device;
-import com.android.emailcommon.Logging;
-import com.android.emailcommon.provider.Account;
-import com.android.emailcommon.provider.HostAuth;
-import com.android.emailcommon.utility.CertificateRequestor;
-import com.android.emailcommon.utility.Utility;
 import com.pellcorp.email.Email;
 import com.pellcorp.email.activity.UiUtilities;
 import com.pellcorp.email.provider.AccountBackupRestore;
 import com.pellcorp.email.service.EmailServiceUtils;
 import com.pellcorp.email.view.CertificateSelector;
 import com.pellcorp.email.view.CertificateSelector.HostCallback;
+import com.pellcorp.emailcommon.Device;
+import com.pellcorp.emailcommon.Logging;
+import com.pellcorp.emailcommon.provider.Account;
+import com.pellcorp.emailcommon.provider.HostAuth;
+import com.pellcorp.emailcommon.utility.CertificateRequestor;
+import com.pellcorp.emailcommon.utility.Utility;
 
 import java.io.IOException;
 
@@ -437,7 +437,7 @@ public class AccountSetupExchangeFragment extends AccountServerBaseFragment
     @Override
     public void onCertificateRequested() {
         Intent intent = new Intent(CertificateRequestor.ACTION_REQUEST_CERT);
-        intent.setData(Uri.parse("eas://com.android.emailcommon/certrequest"));
+        intent.setData(Uri.parse("eas://com.pellcorp.emailcommon/certrequest"));
         startActivityForResult(intent, CERTIFICATE_REQUEST);
     }
 

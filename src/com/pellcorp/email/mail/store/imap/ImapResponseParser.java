@@ -16,13 +16,13 @@
 
 package com.pellcorp.email.mail.store.imap;
 
-import com.android.emailcommon.Logging;
-import com.android.emailcommon.mail.MessagingException;
-import com.android.emailcommon.utility.LoggingInputStream;
 import com.pellcorp.email.Email;
 import com.pellcorp.email.FixedLengthInputStream;
 import com.pellcorp.email.PeekableInputStream;
 import com.pellcorp.email.mail.transport.DiscourseLogger;
+import com.pellcorp.emailcommon.Logging;
+import com.pellcorp.emailcommon.mail.MessagingException;
+import com.pellcorp.emailcommon.utility.LoggingInputStream;
 
 import android.text.TextUtils;
 import android.util.Log;

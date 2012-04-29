@@ -21,8 +21,8 @@ import android.content.SharedPreferences;
 import android.text.TextUtils;
 import android.util.Log;
 
-import com.android.emailcommon.Logging;
-import com.android.emailcommon.provider.Account;
+import com.pellcorp.emailcommon.Logging;
+import com.pellcorp.emailcommon.provider.Account;
 
 import org.json.JSONArray;
 import org.json.JSONException;

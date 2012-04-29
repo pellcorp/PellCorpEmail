@@ -30,12 +30,12 @@ import android.os.Bundle;
 import android.util.Log;
 
 import com.pellcorp.email.R;
-import com.android.emailcommon.provider.Account;
-import com.android.emailcommon.provider.HostAuth;
-import com.android.emailcommon.utility.Utility;
 import com.pellcorp.email.Email;
 import com.pellcorp.email.SecurityPolicy;
 import com.pellcorp.email.activity.ActivityHelper;
+import com.pellcorp.emailcommon.provider.Account;
+import com.pellcorp.emailcommon.provider.HostAuth;
+import com.pellcorp.emailcommon.utility.Utility;
 
 /**
  * Psuedo-activity (no UI) to bootstrap the user up to a higher desired security level.  This

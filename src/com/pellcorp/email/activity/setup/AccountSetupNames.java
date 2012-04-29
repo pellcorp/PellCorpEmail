@@ -35,15 +35,15 @@ import android.widget.Button;
 import android.widget.EditText;
 
 import com.pellcorp.email.R;
-import com.android.emailcommon.provider.Account;
-import com.android.emailcommon.provider.EmailContent.AccountColumns;
-import com.android.emailcommon.provider.HostAuth;
-import com.android.emailcommon.utility.EmailAsyncTask;
-import com.android.emailcommon.utility.Utility;
 import com.pellcorp.email.activity.ActivityHelper;
 import com.pellcorp.email.activity.UiUtilities;
 import com.pellcorp.email.activity.Welcome;
 import com.pellcorp.email.provider.AccountBackupRestore;
+import com.pellcorp.emailcommon.provider.Account;
+import com.pellcorp.emailcommon.provider.HostAuth;
+import com.pellcorp.emailcommon.provider.EmailContent.AccountColumns;
+import com.pellcorp.emailcommon.utility.EmailAsyncTask;
+import com.pellcorp.emailcommon.utility.Utility;
 
 /**
  * Final screen of setup process.  Collect account nickname and/or username.

@@ -22,11 +22,11 @@ import android.util.AttributeSet;
 import android.util.Log;
 import android.webkit.WebView;
 
-import com.android.emailcommon.Logging;
-import com.android.emailcommon.utility.Utility;
 import com.pellcorp.email.Clock;
 import com.pellcorp.email.Email;
 import com.pellcorp.email.Throttle;
+import com.pellcorp.emailcommon.Logging;
+import com.pellcorp.emailcommon.utility.Utility;
 
 /**
  * A custom WebView that is robust to rapid resize events in sequence.

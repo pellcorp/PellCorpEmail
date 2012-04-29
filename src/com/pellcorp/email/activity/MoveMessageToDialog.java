@@ -32,12 +32,12 @@ import android.os.Handler;
 import android.util.Log;
 
 import com.pellcorp.email.R;
-import com.android.emailcommon.Logging;
-import com.android.emailcommon.provider.Account;
-import com.android.emailcommon.provider.EmailContent.Message;
-import com.android.emailcommon.provider.Mailbox;
-import com.android.emailcommon.utility.Utility;
 import com.pellcorp.email.Email;
+import com.pellcorp.emailcommon.Logging;
+import com.pellcorp.emailcommon.provider.Account;
+import com.pellcorp.emailcommon.provider.Mailbox;
+import com.pellcorp.emailcommon.provider.EmailContent.Message;
+import com.pellcorp.emailcommon.utility.Utility;
 
 /**
  * "Move (messages) to" dialog. This is a modal dialog and the design is such so that only one is

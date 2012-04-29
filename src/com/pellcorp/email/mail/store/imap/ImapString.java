@@ -16,7 +16,7 @@
 
 package com.pellcorp.email.mail.store.imap;
 
-import com.android.emailcommon.Logging;
+import com.pellcorp.emailcommon.Logging;
 
 import android.util.Log;
 

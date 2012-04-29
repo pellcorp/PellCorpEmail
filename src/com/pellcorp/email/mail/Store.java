@@ -20,18 +20,18 @@ import android.content.Context;
 import android.os.Bundle;
 import android.util.Log;
 
-import com.android.emailcommon.Logging;
-import com.android.emailcommon.mail.Folder;
-import com.android.emailcommon.mail.MessagingException;
-import com.android.emailcommon.provider.Account;
-import com.android.emailcommon.provider.EmailContent;
-import com.android.emailcommon.provider.HostAuth;
-import com.android.emailcommon.provider.Mailbox;
 import com.google.common.annotations.VisibleForTesting;
 import com.pellcorp.email.Email;
 import com.pellcorp.email.mail.store.ExchangeStore;
 import com.pellcorp.email.mail.store.ImapStore;
 import com.pellcorp.email.mail.store.Pop3Store;
+import com.pellcorp.emailcommon.Logging;
+import com.pellcorp.emailcommon.mail.Folder;
+import com.pellcorp.emailcommon.mail.MessagingException;
+import com.pellcorp.emailcommon.provider.Account;
+import com.pellcorp.emailcommon.provider.EmailContent;
+import com.pellcorp.emailcommon.provider.HostAuth;
+import com.pellcorp.emailcommon.provider.Mailbox;
 
 import java.lang.reflect.Method;
 import java.util.HashMap;

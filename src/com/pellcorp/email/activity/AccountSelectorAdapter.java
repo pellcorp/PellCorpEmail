@@ -30,18 +30,18 @@ import android.widget.CursorAdapter;
 import android.widget.TextView;
 
 import com.pellcorp.email.R;
-import com.android.emailcommon.provider.Account;
-import com.android.emailcommon.provider.EmailContent;
-import com.android.emailcommon.provider.EmailContent.AccountColumns;
-import com.android.emailcommon.provider.EmailContent.MailboxColumns;
-import com.android.emailcommon.provider.Mailbox;
-import com.android.emailcommon.utility.Utility;
 import com.google.common.annotations.VisibleForTesting;
 import com.google.common.base.Preconditions;
 import com.pellcorp.email.FolderProperties;
 import com.pellcorp.email.ResourceHelper;
 import com.pellcorp.email.data.ClosingMatrixCursor;
 import com.pellcorp.email.data.ThrottlingCursorLoader;
+import com.pellcorp.emailcommon.provider.Account;
+import com.pellcorp.emailcommon.provider.EmailContent;
+import com.pellcorp.emailcommon.provider.Mailbox;
+import com.pellcorp.emailcommon.provider.EmailContent.AccountColumns;
+import com.pellcorp.emailcommon.provider.EmailContent.MailboxColumns;
+import com.pellcorp.emailcommon.utility.Utility;
 
 import java.util.ArrayList;
 import java.util.Collection;

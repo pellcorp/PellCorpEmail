@@ -24,12 +24,12 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 
 import com.pellcorp.email.R;
-import com.android.emailcommon.provider.Account;
-import com.android.emailcommon.provider.HostAuth;
 import com.pellcorp.email.VendorPolicyLoader;
 import com.pellcorp.email.activity.ActivityHelper;
 import com.pellcorp.email.activity.UiUtilities;
 import com.pellcorp.email.service.EmailServiceUtils;
+import com.pellcorp.emailcommon.provider.Account;
+import com.pellcorp.emailcommon.provider.HostAuth;
 
 /**
  * Prompts the user to select an account type. The account type, along with the

@@ -27,13 +27,6 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 
 import com.pellcorp.email.R;
-import com.android.emailcommon.Logging;
-import com.android.emailcommon.provider.Account;
-import com.android.emailcommon.provider.EmailContent.Message;
-import com.android.emailcommon.provider.HostAuth;
-import com.android.emailcommon.provider.Mailbox;
-import com.android.emailcommon.utility.EmailAsyncTask;
-import com.android.emailcommon.utility.Utility;
 import com.google.common.base.Objects;
 import com.google.common.base.Preconditions;
 import com.pellcorp.email.Email;
@@ -44,6 +37,13 @@ import com.pellcorp.email.RefreshManager;
 import com.pellcorp.email.RequireManualSyncDialog;
 import com.pellcorp.email.activity.setup.AccountSettings;
 import com.pellcorp.email.activity.setup.MailboxSettings;
+import com.pellcorp.emailcommon.Logging;
+import com.pellcorp.emailcommon.provider.Account;
+import com.pellcorp.emailcommon.provider.HostAuth;
+import com.pellcorp.emailcommon.provider.Mailbox;
+import com.pellcorp.emailcommon.provider.EmailContent.Message;
+import com.pellcorp.emailcommon.utility.EmailAsyncTask;
+import com.pellcorp.emailcommon.utility.Utility;
 
 import java.util.LinkedList;
 import java.util.List;

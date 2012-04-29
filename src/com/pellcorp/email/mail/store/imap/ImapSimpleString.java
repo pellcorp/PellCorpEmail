@@ -16,7 +16,7 @@
 
 package com.pellcorp.email.mail.store.imap;
 
-import com.android.emailcommon.utility.Utility;
+import com.pellcorp.emailcommon.utility.Utility;
 
 import java.io.ByteArrayInputStream;
 import java.io.InputStream;

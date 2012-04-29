@@ -30,10 +30,10 @@ import android.os.Bundle;
 import android.os.IBinder;
 import android.util.Log;
 
-import com.android.emailcommon.provider.EmailContent;
-import com.android.emailcommon.provider.EmailContent.AccountColumns;
-import com.android.emailcommon.provider.Mailbox;
 import com.pellcorp.email.Controller;
+import com.pellcorp.emailcommon.provider.EmailContent;
+import com.pellcorp.emailcommon.provider.Mailbox;
+import com.pellcorp.emailcommon.provider.EmailContent.AccountColumns;
 
 public class PopImapSyncAdapterService extends Service {
     private static final String TAG = "PopImapSyncAdapterService";
@@ -88,7 +88,7 @@ public class PopImapSyncAdapterService extends Service {
             String emailAddress = account.name;
             // Find an EmailProvider account with the Account's email address
             Cursor c = context.getContentResolver().query(
-                    com.android.emailcommon.provider.Account.CONTENT_URI,
+                    com.pellcorp.emailcommon.provider.Account.CONTENT_URI,
                     EmailContent.ID_PROJECTION, AccountColumns.EMAIL_ADDRESS + "=?",
                     new String[] {emailAddress}, null);
             if (c.moveToNext()) {

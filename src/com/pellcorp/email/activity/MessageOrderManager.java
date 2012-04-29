@@ -22,16 +22,16 @@ import android.database.ContentObserver;
 import android.database.Cursor;
 import android.os.Handler;
 
-import com.android.emailcommon.provider.EmailContent;
-import com.android.emailcommon.provider.EmailContent.Message;
-import com.android.emailcommon.provider.Mailbox;
-import com.android.emailcommon.utility.DelayedOperations;
-import com.android.emailcommon.utility.EmailAsyncTask;
-import com.android.emailcommon.utility.Utility;
 import com.google.common.annotations.VisibleForTesting;
 import com.google.common.base.Preconditions;
 import com.pellcorp.email.MessageListContext;
 import com.pellcorp.email.activity.MessageOrderManager.Callback;
+import com.pellcorp.emailcommon.provider.EmailContent;
+import com.pellcorp.emailcommon.provider.Mailbox;
+import com.pellcorp.emailcommon.provider.EmailContent.Message;
+import com.pellcorp.emailcommon.utility.DelayedOperations;
+import com.pellcorp.emailcommon.utility.EmailAsyncTask;
+import com.pellcorp.emailcommon.utility.Utility;
 
 /**
  * Used by {@link MessageView} to determine the message-id of the previous/next messages.

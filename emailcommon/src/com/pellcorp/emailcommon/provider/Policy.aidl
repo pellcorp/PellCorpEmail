@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-package com.android.emailcommon.provider;
+package com.pellcorp.emailcommon.provider;
 
 parcelable Policy;
 

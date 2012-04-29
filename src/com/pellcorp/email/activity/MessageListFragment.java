@@ -55,12 +55,6 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.pellcorp.email.R;
-import com.android.emailcommon.Logging;
-import com.android.emailcommon.provider.Account;
-import com.android.emailcommon.provider.EmailContent.Message;
-import com.android.emailcommon.provider.Mailbox;
-import com.android.emailcommon.utility.EmailAsyncTask;
-import com.android.emailcommon.utility.Utility;
 import com.google.common.annotations.VisibleForTesting;
 import com.google.common.collect.Maps;
 import com.pellcorp.email.Controller;
@@ -70,6 +64,12 @@ import com.pellcorp.email.NotificationController;
 import com.pellcorp.email.RefreshManager;
 import com.pellcorp.email.activity.MessagesAdapter.SearchResultsCursor;
 import com.pellcorp.email.provider.EmailProvider;
+import com.pellcorp.emailcommon.Logging;
+import com.pellcorp.emailcommon.provider.Account;
+import com.pellcorp.emailcommon.provider.Mailbox;
+import com.pellcorp.emailcommon.provider.EmailContent.Message;
+import com.pellcorp.emailcommon.utility.EmailAsyncTask;
+import com.pellcorp.emailcommon.utility.Utility;
 
 import java.util.HashMap;
 import java.util.Set;

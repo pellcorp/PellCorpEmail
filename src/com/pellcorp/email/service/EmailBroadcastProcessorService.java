@@ -29,15 +29,15 @@ import android.database.Cursor;
 import android.net.Uri;
 import android.util.Log;
 
-import com.android.emailcommon.Logging;
-import com.android.emailcommon.provider.Account;
-import com.android.emailcommon.provider.EmailContent.AccountColumns;
-import com.android.emailcommon.provider.HostAuth;
 import com.pellcorp.email.Email;
 import com.pellcorp.email.Preferences;
 import com.pellcorp.email.SecurityPolicy;
 import com.pellcorp.email.VendorPolicyLoader;
 import com.pellcorp.email.activity.setup.AccountSettings;
+import com.pellcorp.emailcommon.Logging;
+import com.pellcorp.emailcommon.provider.Account;
+import com.pellcorp.emailcommon.provider.HostAuth;
+import com.pellcorp.emailcommon.provider.EmailContent.AccountColumns;
 
 /**
  * The service that really handles broadcast intents on a worker thread.

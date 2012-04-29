@@ -32,7 +32,7 @@ import android.view.animation.DecelerateInterpolator;
 import android.widget.LinearLayout;
 
 import com.pellcorp.email.R;
-import com.android.emailcommon.Logging;
+import com.pellcorp.emailcommon.Logging;
 
 /**
  * The "three pane" layout used on tablet.

@@ -25,10 +25,10 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.pellcorp.email.R;
-import com.android.emailcommon.Logging;
-import com.android.emailcommon.provider.EmailContent.Message;
-import com.android.emailcommon.utility.Utility;
 import com.pellcorp.email.Email;
+import com.pellcorp.emailcommon.Logging;
+import com.pellcorp.emailcommon.provider.EmailContent.Message;
+import com.pellcorp.emailcommon.utility.Utility;
 
 /**
  * A {@link MessageViewFragmentBase} subclass for file based messages. (aka EML files)

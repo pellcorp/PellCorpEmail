@@ -34,19 +34,19 @@ import android.os.SystemClock;
 import android.text.TextUtils;
 import android.util.Log;
 
-import com.android.emailcommon.AccountManagerTypes;
-import com.android.emailcommon.mail.MessagingException;
-import com.android.emailcommon.provider.Account;
-import com.android.emailcommon.provider.EmailContent;
-import com.android.emailcommon.provider.HostAuth;
-import com.android.emailcommon.provider.Mailbox;
-import com.android.emailcommon.utility.EmailAsyncTask;
 import com.google.common.annotations.VisibleForTesting;
 import com.pellcorp.email.Controller;
 import com.pellcorp.email.Email;
 import com.pellcorp.email.Preferences;
 import com.pellcorp.email.SingleRunningTask;
 import com.pellcorp.email.provider.AccountReconciler;
+import com.pellcorp.emailcommon.AccountManagerTypes;
+import com.pellcorp.emailcommon.mail.MessagingException;
+import com.pellcorp.emailcommon.provider.Account;
+import com.pellcorp.emailcommon.provider.EmailContent;
+import com.pellcorp.emailcommon.provider.HostAuth;
+import com.pellcorp.emailcommon.provider.Mailbox;
+import com.pellcorp.emailcommon.utility.EmailAsyncTask;
 
 import java.util.ArrayList;
 import java.util.HashMap;

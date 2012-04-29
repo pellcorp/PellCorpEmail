@@ -24,16 +24,16 @@ import android.database.Cursor;
 import android.os.Bundle;
 import android.os.IBinder;
 
-import com.android.emailcommon.Configuration;
-import com.android.emailcommon.Device;
-import com.android.emailcommon.provider.Account;
-import com.android.emailcommon.service.IAccountService;
-import com.android.emailcommon.utility.EmailAsyncTask;
 import com.pellcorp.email.Email;
 import com.pellcorp.email.NotificationController;
 import com.pellcorp.email.ResourceHelper;
 import com.pellcorp.email.VendorPolicyLoader;
 import com.pellcorp.email.provider.AccountReconciler;
+import com.pellcorp.emailcommon.Configuration;
+import com.pellcorp.emailcommon.Device;
+import com.pellcorp.emailcommon.provider.Account;
+import com.pellcorp.emailcommon.service.IAccountService;
+import com.pellcorp.emailcommon.utility.EmailAsyncTask;
 
 import java.io.IOException;
 import java.util.ArrayList;

@@ -31,15 +31,15 @@ import android.text.TextUtils;
 import android.util.Log;
 
 import com.pellcorp.email.R;
-import com.android.emailcommon.Logging;
-import com.android.emailcommon.mail.MessagingException;
-import com.android.emailcommon.provider.Account;
-import com.android.emailcommon.provider.HostAuth;
-import com.android.emailcommon.provider.Policy;
-import com.android.emailcommon.service.EmailServiceProxy;
-import com.android.emailcommon.utility.Utility;
 import com.pellcorp.email.mail.Sender;
 import com.pellcorp.email.mail.Store;
+import com.pellcorp.emailcommon.Logging;
+import com.pellcorp.emailcommon.mail.MessagingException;
+import com.pellcorp.emailcommon.provider.Account;
+import com.pellcorp.emailcommon.provider.HostAuth;
+import com.pellcorp.emailcommon.provider.Policy;
+import com.pellcorp.emailcommon.service.EmailServiceProxy;
+import com.pellcorp.emailcommon.utility.Utility;
 
 /**
  * Check incoming or outgoing settings, or perform autodiscovery.

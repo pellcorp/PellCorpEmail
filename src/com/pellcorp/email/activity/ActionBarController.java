@@ -36,10 +36,10 @@ import android.widget.SearchView;
 import android.widget.TextView;
 
 import com.pellcorp.email.R;
-import com.android.emailcommon.provider.Account;
-import com.android.emailcommon.provider.Mailbox;
-import com.android.emailcommon.utility.DelayedOperations;
-import com.android.emailcommon.utility.Utility;
+import com.pellcorp.emailcommon.provider.Account;
+import com.pellcorp.emailcommon.provider.Mailbox;
+import com.pellcorp.emailcommon.utility.DelayedOperations;
+import com.pellcorp.emailcommon.utility.Utility;
 
 /**
  * Manages the account name and the custom view part on the action bar.

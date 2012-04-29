@@ -35,13 +35,13 @@ import android.widget.Spinner;
 import android.widget.TextView;
 
 import com.pellcorp.email.R;
-import com.android.emailcommon.Logging;
-import com.android.emailcommon.provider.Account;
-import com.android.emailcommon.provider.HostAuth;
-import com.android.emailcommon.utility.Utility;
 import com.pellcorp.email.Email;
 import com.pellcorp.email.activity.UiUtilities;
 import com.pellcorp.email.provider.AccountBackupRestore;
+import com.pellcorp.emailcommon.Logging;
+import com.pellcorp.emailcommon.provider.Account;
+import com.pellcorp.emailcommon.provider.HostAuth;
+import com.pellcorp.emailcommon.utility.Utility;
 
 /**
  * Provides UI for IMAP/POP account settings.

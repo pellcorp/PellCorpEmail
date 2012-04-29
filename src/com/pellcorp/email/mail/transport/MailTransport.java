@@ -16,12 +16,12 @@
 
 package com.pellcorp.email.mail.transport;
 
-import com.android.emailcommon.Logging;
-import com.android.emailcommon.mail.CertificateValidationException;
-import com.android.emailcommon.mail.MessagingException;
-import com.android.emailcommon.utility.SSLUtils;
 import com.pellcorp.email.Email;
 import com.pellcorp.email.mail.Transport;
+import com.pellcorp.emailcommon.Logging;
+import com.pellcorp.emailcommon.mail.CertificateValidationException;
+import com.pellcorp.emailcommon.mail.MessagingException;
+import com.pellcorp.emailcommon.utility.SSLUtils;
 
 import android.util.Log;
 

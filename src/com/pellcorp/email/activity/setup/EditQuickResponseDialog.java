@@ -17,9 +17,9 @@
 package com.pellcorp.email.activity.setup;
 
 import com.pellcorp.email.R;
-import com.android.emailcommon.provider.QuickResponse;
-import com.android.emailcommon.provider.EmailContent.QuickResponseColumns;
-import com.android.emailcommon.utility.EmailAsyncTask;
+import com.pellcorp.emailcommon.provider.QuickResponse;
+import com.pellcorp.emailcommon.provider.EmailContent.QuickResponseColumns;
+import com.pellcorp.emailcommon.utility.EmailAsyncTask;
 
 import android.app.AlertDialog;
 import android.app.Dialog;

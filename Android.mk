@@ -30,7 +30,7 @@ LOCAL_SRC_FILES += $(call all-java-files-under, src/com/beetstra)
 LOCAL_RESOURCE_DIR := $(addprefix $(LOCAL_PATH)/, $(res_dir))
 LOCAL_AAPT_FLAGS := --auto-add-overlay
 
-LOCAL_STATIC_JAVA_LIBRARIES := android-common com.android.emailcommon guava android-common-chips
+LOCAL_STATIC_JAVA_LIBRARIES := android-common com.pellcorp.emailcommon guava android-common-chips
 
 LOCAL_PACKAGE_NAME := PellCorpEmail
 
@@ -43,7 +43,7 @@ LOCAL_SDK_VERSION := current
 # leaving out code which is tested by other means (e.g. static libraries) that
 # would dilute the coverage results. These options do not affect regular
 # production builds.
-LOCAL_EMMA_COVERAGE_FILTER := +com.android.emailcommon.*,+com.pellcorp.email.*, \
+LOCAL_EMMA_COVERAGE_FILTER := +com.pellcorp.emailcommon.*,+com.pellcorp.email.*, \
     +org.apache.james.mime4j.*,+com.beetstra.jutf7.*,+org.apache.commons.io.*
 
 include $(BUILD_PACKAGE)

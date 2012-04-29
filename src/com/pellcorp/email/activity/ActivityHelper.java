@@ -25,13 +25,13 @@ import android.provider.Browser;
 import android.view.WindowManager;
 
 import com.pellcorp.email.R;
-import com.android.emailcommon.provider.Account;
-import com.android.emailcommon.provider.Mailbox;
-import com.android.emailcommon.utility.EmailAsyncTask;
-import com.android.emailcommon.utility.Utility;
 import com.pellcorp.email.Controller;
 import com.pellcorp.email.Email;
 import com.pellcorp.email.activity.setup.AccountSecurity;
+import com.pellcorp.emailcommon.provider.Account;
+import com.pellcorp.emailcommon.provider.Mailbox;
+import com.pellcorp.emailcommon.utility.EmailAsyncTask;
+import com.pellcorp.emailcommon.utility.Utility;
 
 /**
  * Various methods that are used by both 1-pane and 2-pane activities.

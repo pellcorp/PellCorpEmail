@@ -21,14 +21,14 @@ import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
 
-import com.android.emailcommon.provider.EmailContent;
-import com.android.emailcommon.provider.EmailContent.MailboxColumns;
-import com.android.emailcommon.provider.Mailbox;
-import com.android.emailcommon.utility.EmailAsyncTask;
 import com.google.common.annotations.VisibleForTesting;
 import com.google.common.collect.Maps;
 import com.pellcorp.email.Clock;
 import com.pellcorp.email.Controller;
+import com.pellcorp.emailcommon.provider.EmailContent;
+import com.pellcorp.emailcommon.provider.Mailbox;
+import com.pellcorp.emailcommon.provider.EmailContent.MailboxColumns;
+import com.pellcorp.emailcommon.utility.EmailAsyncTask;
 
 import java.util.ArrayList;
 import java.util.HashMap;

@@ -24,10 +24,10 @@ import android.content.Intent;
 import android.util.Log;
 import android.widget.RemoteViewsService;
 
-import com.android.emailcommon.Logging;
 import com.pellcorp.email.Email;
 import com.pellcorp.email.widget.EmailWidget;
 import com.pellcorp.email.widget.WidgetManager;
+import com.pellcorp.emailcommon.Logging;
 
 import java.io.FileDescriptor;
 import java.io.PrintWriter;

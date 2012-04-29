@@ -16,8 +16,8 @@
 
 package com.pellcorp.email;
 
-import com.android.emailcommon.Logging;
 import com.pellcorp.email.activity.setup.AccountSettingsUtils.Provider;
+import com.pellcorp.emailcommon.Logging;
 
 import android.content.Context;
 import android.content.pm.ApplicationInfo;

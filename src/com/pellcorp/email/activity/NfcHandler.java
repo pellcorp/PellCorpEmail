@@ -23,7 +23,7 @@ import android.nfc.NfcAdapter;
 import android.nfc.NfcEvent;
 import android.text.TextUtils;
 
-import com.android.emailcommon.provider.Account;
+import com.pellcorp.emailcommon.provider.Account;
 
 import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;

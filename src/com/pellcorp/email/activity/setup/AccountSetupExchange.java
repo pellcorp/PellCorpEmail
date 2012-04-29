@@ -17,10 +17,10 @@
 package com.pellcorp.email.activity.setup;
 
 import com.pellcorp.email.R;
-import com.android.emailcommon.provider.Account;
-import com.android.emailcommon.provider.HostAuth;
 import com.pellcorp.email.activity.ActivityHelper;
 import com.pellcorp.email.activity.UiUtilities;
+import com.pellcorp.emailcommon.provider.Account;
+import com.pellcorp.emailcommon.provider.HostAuth;
 
 import android.app.Activity;
 import android.app.FragmentTransaction;

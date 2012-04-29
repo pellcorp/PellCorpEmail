@@ -32,10 +32,10 @@ import android.widget.TextView;
 import android.widget.TextView.OnEditorActionListener;
 
 import com.pellcorp.email.R;
-import com.android.emailcommon.provider.Account;
-import com.android.emailcommon.provider.HostAuth;
-import com.android.emailcommon.utility.Utility;
 import com.pellcorp.email.activity.UiUtilities;
+import com.pellcorp.emailcommon.provider.Account;
+import com.pellcorp.emailcommon.provider.HostAuth;
+import com.pellcorp.emailcommon.utility.Utility;
 
 import java.net.URI;
 import java.net.URISyntaxException;

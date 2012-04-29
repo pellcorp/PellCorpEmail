@@ -41,17 +41,17 @@ import android.widget.RemoteViews;
 import android.widget.RemoteViewsService;
 
 import com.pellcorp.email.R;
-import com.android.emailcommon.Logging;
-import com.android.emailcommon.provider.Account;
-import com.android.emailcommon.provider.EmailContent.Message;
-import com.android.emailcommon.provider.Mailbox;
-import com.android.emailcommon.utility.EmailAsyncTask;
 import com.pellcorp.email.Email;
 import com.pellcorp.email.ResourceHelper;
 import com.pellcorp.email.activity.MessageCompose;
 import com.pellcorp.email.activity.UiUtilities;
 import com.pellcorp.email.activity.Welcome;
 import com.pellcorp.email.provider.WidgetProvider.WidgetService;
+import com.pellcorp.emailcommon.Logging;
+import com.pellcorp.emailcommon.provider.Account;
+import com.pellcorp.emailcommon.provider.Mailbox;
+import com.pellcorp.emailcommon.provider.EmailContent.Message;
+import com.pellcorp.emailcommon.utility.EmailAsyncTask;
 
 import java.util.List;
 

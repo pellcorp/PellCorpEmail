@@ -18,8 +18,8 @@ package com.pellcorp.email;
 
 import android.os.Handler;
 
-import com.android.emailcommon.mail.MessagingException;
 import com.pellcorp.email.Controller.Result;
+import com.pellcorp.emailcommon.mail.MessagingException;
 
 import java.util.ArrayList;
 

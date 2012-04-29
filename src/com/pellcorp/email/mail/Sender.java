@@ -21,10 +21,10 @@ import android.content.res.XmlResourceParser;
 import android.util.Log;
 
 import com.pellcorp.email.R;
-import com.android.emailcommon.Logging;
-import com.android.emailcommon.mail.MessagingException;
-import com.android.emailcommon.provider.Account;
-import com.android.emailcommon.provider.HostAuth;
+import com.pellcorp.emailcommon.Logging;
+import com.pellcorp.emailcommon.mail.MessagingException;
+import com.pellcorp.emailcommon.provider.Account;
+import com.pellcorp.emailcommon.provider.HostAuth;
 
 import org.xmlpull.v1.XmlPullParserException;
 

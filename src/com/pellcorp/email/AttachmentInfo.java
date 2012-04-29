@@ -16,10 +16,10 @@
 
 package com.pellcorp.email;
 
-import com.android.emailcommon.internet.MimeUtility;
-import com.android.emailcommon.provider.EmailContent.Attachment;
-import com.android.emailcommon.utility.AttachmentUtilities;
-import com.android.emailcommon.utility.Utility;
+import com.pellcorp.emailcommon.internet.MimeUtility;
+import com.pellcorp.emailcommon.provider.EmailContent.Attachment;
+import com.pellcorp.emailcommon.utility.AttachmentUtilities;
+import com.pellcorp.emailcommon.utility.Utility;
 
 import android.content.Context;
 import android.content.Intent;

@@ -16,13 +16,13 @@
 
 package com.pellcorp.email.provider;
 
-import com.android.emailcommon.Logging;
-import com.android.emailcommon.internet.MimeUtility;
-import com.android.emailcommon.provider.EmailContent;
-import com.android.emailcommon.provider.EmailContent.Attachment;
-import com.android.emailcommon.provider.EmailContent.AttachmentColumns;
-import com.android.emailcommon.utility.AttachmentUtilities;
-import com.android.emailcommon.utility.AttachmentUtilities.Columns;
+import com.pellcorp.emailcommon.Logging;
+import com.pellcorp.emailcommon.internet.MimeUtility;
+import com.pellcorp.emailcommon.provider.EmailContent;
+import com.pellcorp.emailcommon.provider.EmailContent.Attachment;
+import com.pellcorp.emailcommon.provider.EmailContent.AttachmentColumns;
+import com.pellcorp.emailcommon.utility.AttachmentUtilities;
+import com.pellcorp.emailcommon.utility.AttachmentUtilities.Columns;
 
 import android.content.ContentProvider;
 import android.content.ContentUris;

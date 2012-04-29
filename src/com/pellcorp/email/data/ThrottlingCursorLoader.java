@@ -16,8 +16,8 @@
 
 package com.pellcorp.email.data;
 
-import com.android.emailcommon.Logging;
 import com.pellcorp.email.Throttle;
+import com.pellcorp.emailcommon.Logging;
 
 import android.content.Context;
 import android.content.CursorLoader;

@@ -36,16 +36,16 @@ import android.widget.CheckBox;
 import android.widget.Spinner;
 
 import com.pellcorp.email.R;
-import com.android.emailcommon.Logging;
-import com.android.emailcommon.provider.Account;
-import com.android.emailcommon.provider.HostAuth;
-import com.android.emailcommon.service.SyncWindow;
-import com.android.emailcommon.utility.Utility;
 import com.pellcorp.email.Email;
 import com.pellcorp.email.activity.ActivityHelper;
 import com.pellcorp.email.activity.UiUtilities;
 import com.pellcorp.email.service.EmailServiceUtils;
 import com.pellcorp.email.service.MailService;
+import com.pellcorp.emailcommon.Logging;
+import com.pellcorp.emailcommon.provider.Account;
+import com.pellcorp.emailcommon.provider.HostAuth;
+import com.pellcorp.emailcommon.service.SyncWindow;
+import com.pellcorp.emailcommon.utility.Utility;
 
 import java.io.IOException;
 

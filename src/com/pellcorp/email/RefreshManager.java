@@ -16,9 +16,9 @@
 
 package com.pellcorp.email;
 
-import com.android.emailcommon.Logging;
-import com.android.emailcommon.mail.MessagingException;
-import com.android.emailcommon.utility.Utility;
+import com.pellcorp.emailcommon.Logging;
+import com.pellcorp.emailcommon.mail.MessagingException;
+import com.pellcorp.emailcommon.utility.Utility;
 
 import android.content.Context;
 import android.os.AsyncTask;

@@ -26,15 +26,15 @@ import android.view.ViewGroup;
 import android.widget.CursorAdapter;
 import android.widget.TextView;
 
-import com.android.emailcommon.Logging;
-import com.android.emailcommon.provider.Account;
-import com.android.emailcommon.provider.EmailContent.MailboxColumns;
-import com.android.emailcommon.provider.HostAuth;
-import com.android.emailcommon.provider.Mailbox;
-import com.android.emailcommon.utility.Utility;
 import com.pellcorp.email.Email;
 import com.pellcorp.email.FolderProperties;
 import com.pellcorp.email.data.ThrottlingCursorLoader;
+import com.pellcorp.emailcommon.Logging;
+import com.pellcorp.emailcommon.provider.Account;
+import com.pellcorp.emailcommon.provider.HostAuth;
+import com.pellcorp.emailcommon.provider.Mailbox;
+import com.pellcorp.emailcommon.provider.EmailContent.MailboxColumns;
+import com.pellcorp.emailcommon.utility.Utility;
 
 /**
  * Cursor adapter for the "move to mailbox" dialog.

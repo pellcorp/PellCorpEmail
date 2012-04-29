@@ -16,10 +16,10 @@
 
 package com.pellcorp.email.service;
 
-import com.android.emailcommon.AccountManagerTypes;
-import com.android.emailcommon.CalendarProviderStub;
-import com.android.emailcommon.provider.EmailContent;
 import com.pellcorp.email.activity.setup.AccountSetupBasics;
+import com.pellcorp.emailcommon.AccountManagerTypes;
+import com.pellcorp.emailcommon.CalendarProviderStub;
+import com.pellcorp.emailcommon.provider.EmailContent;
 
 import android.accounts.AbstractAccountAuthenticator;
 import android.accounts.Account;

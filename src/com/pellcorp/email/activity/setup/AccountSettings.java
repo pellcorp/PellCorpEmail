@@ -38,15 +38,15 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 import com.pellcorp.email.R;
-import com.android.emailcommon.Logging;
-import com.android.emailcommon.provider.Account;
-import com.android.emailcommon.provider.EmailContent.AccountColumns;
-import com.android.emailcommon.utility.IntentUtilities;
-import com.android.emailcommon.utility.Utility;
 import com.pellcorp.email.Controller;
 import com.pellcorp.email.activity.ActivityHelper;
 import com.pellcorp.email.mail.Sender;
 import com.pellcorp.email.mail.Store;
+import com.pellcorp.emailcommon.Logging;
+import com.pellcorp.emailcommon.provider.Account;
+import com.pellcorp.emailcommon.provider.EmailContent.AccountColumns;
+import com.pellcorp.emailcommon.utility.IntentUtilities;
+import com.pellcorp.emailcommon.utility.Utility;
 
 import java.util.List;
 

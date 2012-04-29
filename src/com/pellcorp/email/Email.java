@@ -25,17 +25,17 @@ import android.database.Cursor;
 import android.util.Log;
 
 import com.pellcorp.email.R;
-import com.android.emailcommon.Logging;
-import com.android.emailcommon.TempDirectory;
-import com.android.emailcommon.provider.Account;
-import com.android.emailcommon.service.EmailServiceProxy;
-import com.android.emailcommon.utility.EmailAsyncTask;
-import com.android.emailcommon.utility.Utility;
 import com.pellcorp.email.activity.MessageCompose;
 import com.pellcorp.email.activity.ShortcutPicker;
 import com.pellcorp.email.service.AttachmentDownloadService;
 import com.pellcorp.email.service.MailService;
 import com.pellcorp.email.widget.WidgetConfiguration;
+import com.pellcorp.emailcommon.Logging;
+import com.pellcorp.emailcommon.TempDirectory;
+import com.pellcorp.emailcommon.provider.Account;
+import com.pellcorp.emailcommon.service.EmailServiceProxy;
+import com.pellcorp.emailcommon.utility.EmailAsyncTask;
+import com.pellcorp.emailcommon.utility.Utility;
 
 public class Email extends Application {
     /**
