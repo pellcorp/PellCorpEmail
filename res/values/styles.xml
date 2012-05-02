@@ -16,7 +16,7 @@
 
 <!-- non-xlarge.  See also values-xlarge for specializations for xlarge screens -->
 <resources>
-    <style name="EmailTheme" parent="@android:style/Theme.Holo">
+    <style name="EmailTheme" parent="@android:style/Theme.Holo.Light">
     </style>
 
     <style name="ThemeNoTitleBar" parent="android:Theme.NoTitleBar">
