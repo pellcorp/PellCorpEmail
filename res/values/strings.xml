@@ -28,7 +28,7 @@
         database, including received messages, sent messages, usernames, and passwords.</string>
 
     <!-- Name of application on Home screen -->
-    <string name="app_name">PellCorpEmail</string>
+    <string name="app_name">PellCorp Email</string>
     <!-- Title of compose screen -->
     <string name="compose_title">Compose</string>
     <!-- Title of debug screen -->
