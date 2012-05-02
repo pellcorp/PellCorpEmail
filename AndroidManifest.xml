@@ -162,7 +162,7 @@
         <activity
             android:name=".activity.setup.AccountSettings"
             android:label="@string/settings_activity_title"
-            android:theme="@android:style/Theme.Holo"
+            android:theme="@android:style/Theme.Holo.Light"
             >
             <intent-filter>
                 <action
@@ -194,7 +194,7 @@
         <activity
             android:name=".activity.ShortcutPicker"
             android:enabled="false"
-            android:theme="@android:style/Theme.Holo.DialogWhenLarge"
+            android:theme="@android:style/Theme.Holo.Light.DialogWhenLarge"
             >
             <intent-filter
                 android:label="@string/account_shortcut_picker_name">
@@ -228,7 +228,7 @@
             android:name=".activity.MessageCompose"
             android:label="@string/compose_title"
             android:enabled="false"
-            android:theme="@android:style/Theme.Holo"
+            android:theme="@android:style/Theme.Holo.Light"
             >
             <intent-filter>
                 <action
@@ -466,7 +466,7 @@
         <activity
             android:name=".widget.WidgetConfiguration"
             android:enabled="false"
-            android:theme="@android:style/Theme.Holo.DialogWhenLarge"
+            android:theme="@android:style/Theme.Holo.Light.DialogWhenLarge"
             >
             <intent-filter
                 android:label="@string/account_shortcut_picker_name">
