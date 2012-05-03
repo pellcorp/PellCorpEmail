@@ -17,9 +17,8 @@
 <manifest
     xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.pellcorp.email"
-    android:versionCode="410000"
-    android:versionName="4.1"
-    >
+    android:versionCode="03052012"
+    android:versionName="03052012">
 	
     <original-package
         android:name="com.pellcorp.email" />
