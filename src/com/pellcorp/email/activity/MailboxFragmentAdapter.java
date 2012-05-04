@@ -33,21 +33,21 @@ import android.widget.CursorAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.pellcorp.email.R;
-import com.google.common.annotations.VisibleForTesting;
 import com.pellcorp.email.Email;
 import com.pellcorp.email.FolderProperties;
+import com.pellcorp.email.R;
 import com.pellcorp.email.ResourceHelper;
 import com.pellcorp.email.data.ClosingMatrixCursor;
 import com.pellcorp.email.data.ThrottlingCursorLoader;
 import com.pellcorp.emailcommon.Logging;
 import com.pellcorp.emailcommon.provider.Account;
 import com.pellcorp.emailcommon.provider.EmailContent;
-import com.pellcorp.emailcommon.provider.Mailbox;
 import com.pellcorp.emailcommon.provider.EmailContent.AccountColumns;
 import com.pellcorp.emailcommon.provider.EmailContent.MailboxColumns;
 import com.pellcorp.emailcommon.provider.EmailContent.Message;
+import com.pellcorp.emailcommon.provider.Mailbox;
 import com.pellcorp.emailcommon.utility.Utility;
+import com.google.common.annotations.VisibleForTesting;
 
 import java.util.ArrayList;
 

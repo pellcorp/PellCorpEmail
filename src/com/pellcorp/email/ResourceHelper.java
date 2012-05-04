@@ -16,8 +16,6 @@
 
 package com.pellcorp.email;
 
-import com.pellcorp.email.R;
-
 import android.content.Context;
 import android.content.res.Resources;
 import android.content.res.TypedArray;

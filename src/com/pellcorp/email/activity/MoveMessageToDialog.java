@@ -31,12 +31,12 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.util.Log;
 
-import com.pellcorp.email.R;
 import com.pellcorp.email.Email;
+import com.pellcorp.email.R;
 import com.pellcorp.emailcommon.Logging;
 import com.pellcorp.emailcommon.provider.Account;
-import com.pellcorp.emailcommon.provider.Mailbox;
 import com.pellcorp.emailcommon.provider.EmailContent.Message;
+import com.pellcorp.emailcommon.provider.Mailbox;
 import com.pellcorp.emailcommon.utility.Utility;
 
 /**

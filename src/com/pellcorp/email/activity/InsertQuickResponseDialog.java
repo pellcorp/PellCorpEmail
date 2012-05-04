@@ -17,7 +17,8 @@
 package com.pellcorp.email.activity;
 
 import com.pellcorp.email.R;
-import com.pellcorp.email.activity.setup.AccountSettingsEditQuickResponsesFragment.QuickResponseFinder;
+import com.pellcorp.email.activity.setup.
+        AccountSettingsEditQuickResponsesFragment.QuickResponseFinder;
 import com.pellcorp.emailcommon.provider.Account;
 import com.pellcorp.emailcommon.utility.EmailAsyncTask;
 

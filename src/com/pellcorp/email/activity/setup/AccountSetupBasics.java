@@ -41,9 +41,8 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.pellcorp.email.R;
-import com.google.common.annotations.VisibleForTesting;
 import com.pellcorp.email.EmailAddressValidator;
+import com.pellcorp.email.R;
 import com.pellcorp.email.VendorPolicyLoader;
 import com.pellcorp.email.activity.ActivityHelper;
 import com.pellcorp.email.activity.UiUtilities;
@@ -55,6 +54,7 @@ import com.pellcorp.emailcommon.provider.EmailContent;
 import com.pellcorp.emailcommon.provider.HostAuth;
 import com.pellcorp.emailcommon.service.SyncWindow;
 import com.pellcorp.emailcommon.utility.Utility;
+import com.google.common.annotations.VisibleForTesting;
 
 import java.net.URISyntaxException;
 import java.util.concurrent.Callable;

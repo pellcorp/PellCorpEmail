@@ -26,7 +26,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.CursorAdapter;
 
-import com.google.common.base.Preconditions;
 import com.pellcorp.email.Controller;
 import com.pellcorp.email.Email;
 import com.pellcorp.email.MessageListContext;
@@ -36,11 +35,12 @@ import com.pellcorp.emailcommon.Logging;
 import com.pellcorp.emailcommon.mail.MessagingException;
 import com.pellcorp.emailcommon.provider.Account;
 import com.pellcorp.emailcommon.provider.EmailContent;
-import com.pellcorp.emailcommon.provider.Mailbox;
 import com.pellcorp.emailcommon.provider.EmailContent.Message;
 import com.pellcorp.emailcommon.provider.EmailContent.MessageColumns;
+import com.pellcorp.emailcommon.provider.Mailbox;
 import com.pellcorp.emailcommon.utility.TextUtilities;
 import com.pellcorp.emailcommon.utility.Utility;
+import com.google.common.base.Preconditions;
 
 import java.util.HashSet;
 import java.util.Set;

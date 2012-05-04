@@ -34,8 +34,8 @@ import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.TextView;
 
-import com.pellcorp.email.R;
 import com.pellcorp.email.Email;
+import com.pellcorp.email.R;
 import com.pellcorp.email.activity.UiUtilities;
 import com.pellcorp.email.provider.AccountBackupRestore;
 import com.pellcorp.emailcommon.Logging;

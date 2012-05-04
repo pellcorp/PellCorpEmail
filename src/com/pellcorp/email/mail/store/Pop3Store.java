@@ -20,7 +20,6 @@ import android.content.Context;
 import android.os.Bundle;
 import android.util.Log;
 
-import com.google.common.annotations.VisibleForTesting;
 import com.pellcorp.email.Controller;
 import com.pellcorp.email.Email;
 import com.pellcorp.email.mail.Store;
@@ -32,9 +31,9 @@ import com.pellcorp.emailcommon.mail.AuthenticationFailedException;
 import com.pellcorp.emailcommon.mail.FetchProfile;
 import com.pellcorp.emailcommon.mail.Flag;
 import com.pellcorp.emailcommon.mail.Folder;
+import com.pellcorp.emailcommon.mail.Folder.OpenMode;
 import com.pellcorp.emailcommon.mail.Message;
 import com.pellcorp.emailcommon.mail.MessagingException;
-import com.pellcorp.emailcommon.mail.Folder.OpenMode;
 import com.pellcorp.emailcommon.provider.Account;
 import com.pellcorp.emailcommon.provider.HostAuth;
 import com.pellcorp.emailcommon.provider.Mailbox;
@@ -42,6 +41,7 @@ import com.pellcorp.emailcommon.service.EmailServiceProxy;
 import com.pellcorp.emailcommon.service.SearchParams;
 import com.pellcorp.emailcommon.utility.LoggingInputStream;
 import com.pellcorp.emailcommon.utility.Utility;
+import com.google.common.annotations.VisibleForTesting;
 
 import java.io.IOException;
 import java.io.InputStream;

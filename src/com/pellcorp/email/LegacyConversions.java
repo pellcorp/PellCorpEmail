@@ -23,7 +23,6 @@ import android.database.Cursor;
 import android.net.Uri;
 import android.util.Log;
 
-import com.pellcorp.email.R;
 import com.pellcorp.emailcommon.Logging;
 import com.pellcorp.emailcommon.internet.MimeBodyPart;
 import com.pellcorp.emailcommon.internet.MimeHeader;
@@ -34,13 +33,13 @@ import com.pellcorp.emailcommon.internet.TextBody;
 import com.pellcorp.emailcommon.mail.Address;
 import com.pellcorp.emailcommon.mail.Flag;
 import com.pellcorp.emailcommon.mail.Message;
+import com.pellcorp.emailcommon.mail.Message.RecipientType;
 import com.pellcorp.emailcommon.mail.MessagingException;
 import com.pellcorp.emailcommon.mail.Part;
-import com.pellcorp.emailcommon.mail.Message.RecipientType;
 import com.pellcorp.emailcommon.provider.EmailContent;
-import com.pellcorp.emailcommon.provider.Mailbox;
 import com.pellcorp.emailcommon.provider.EmailContent.Attachment;
 import com.pellcorp.emailcommon.provider.EmailContent.AttachmentColumns;
+import com.pellcorp.emailcommon.provider.Mailbox;
 import com.pellcorp.emailcommon.utility.AttachmentUtilities;
 
 import org.apache.commons.io.IOUtils;

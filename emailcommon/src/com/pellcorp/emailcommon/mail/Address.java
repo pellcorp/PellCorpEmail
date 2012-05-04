@@ -16,8 +16,8 @@
 
 package com.pellcorp.emailcommon.mail;
 
-import com.google.common.annotations.VisibleForTesting;
 import com.pellcorp.emailcommon.utility.Utility;
+import com.google.common.annotations.VisibleForTesting;
 
 import org.apache.james.mime4j.codec.EncoderUtil;
 import org.apache.james.mime4j.decoder.DecoderUtil;

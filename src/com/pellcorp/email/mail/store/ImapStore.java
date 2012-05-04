@@ -24,8 +24,6 @@ import android.text.TextUtils;
 import android.util.Base64;
 import android.util.Log;
 
-import com.beetstra.jutf7.CharsetProvider;
-import com.google.common.annotations.VisibleForTesting;
 import com.pellcorp.email.LegacyConversions;
 import com.pellcorp.email.Preferences;
 import com.pellcorp.email.VendorPolicyLoader;
@@ -47,6 +45,8 @@ import com.pellcorp.emailcommon.provider.HostAuth;
 import com.pellcorp.emailcommon.provider.Mailbox;
 import com.pellcorp.emailcommon.service.EmailServiceProxy;
 import com.pellcorp.emailcommon.utility.Utility;
+import com.beetstra.jutf7.CharsetProvider;
+import com.google.common.annotations.VisibleForTesting;
 
 import java.io.IOException;
 import java.io.InputStream;

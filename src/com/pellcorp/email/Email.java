@@ -24,7 +24,6 @@ import android.content.pm.PackageManager;
 import android.database.Cursor;
 import android.util.Log;
 
-import com.pellcorp.email.R;
 import com.pellcorp.email.activity.MessageCompose;
 import com.pellcorp.email.activity.ShortcutPicker;
 import com.pellcorp.email.service.AttachmentDownloadService;

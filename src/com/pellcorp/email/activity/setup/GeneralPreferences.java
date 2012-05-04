@@ -25,8 +25,8 @@ import android.preference.PreferenceFragment;
 import android.preference.PreferenceScreen;
 import android.widget.Toast;
 
-import com.pellcorp.email.R;
 import com.pellcorp.email.Preferences;
+import com.pellcorp.email.R;
 import com.pellcorp.email.activity.UiUtilities;
 
 public class GeneralPreferences extends PreferenceFragment implements OnPreferenceChangeListener  {

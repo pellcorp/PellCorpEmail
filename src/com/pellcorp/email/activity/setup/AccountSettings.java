@@ -37,8 +37,8 @@ import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import com.pellcorp.email.R;
 import com.pellcorp.email.Controller;
+import com.pellcorp.email.R;
 import com.pellcorp.email.activity.ActivityHelper;
 import com.pellcorp.email.mail.Sender;
 import com.pellcorp.email.mail.Store;

@@ -16,10 +16,9 @@
 
 package com.pellcorp.email;
 
-import com.pellcorp.email.R;
-import com.pellcorp.emailcommon.provider.Mailbox;
 import com.pellcorp.emailcommon.provider.EmailContent.MailboxColumns;
 import com.pellcorp.emailcommon.provider.EmailContent.Message;
+import com.pellcorp.emailcommon.provider.Mailbox;
 import com.google.common.base.Preconditions;
 
 import android.content.Context;

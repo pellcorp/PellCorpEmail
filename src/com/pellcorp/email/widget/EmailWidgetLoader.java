@@ -20,9 +20,9 @@ import com.pellcorp.email.R;
 import com.pellcorp.email.data.ThrottlingCursorLoader;
 import com.pellcorp.emailcommon.provider.Account;
 import com.pellcorp.emailcommon.provider.EmailContent;
-import com.pellcorp.emailcommon.provider.Mailbox;
 import com.pellcorp.emailcommon.provider.EmailContent.Message;
 import com.pellcorp.emailcommon.provider.EmailContent.MessageColumns;
+import com.pellcorp.emailcommon.provider.Mailbox;
 
 import android.content.Context;
 import android.content.res.Resources;

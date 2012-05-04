@@ -24,12 +24,12 @@ import android.util.Log;
 import android.widget.EditText;
 
 import com.pellcorp.email.R;
-import com.google.common.annotations.VisibleForTesting;
 import com.pellcorp.email.VendorPolicyLoader;
 import com.pellcorp.email.provider.AccountBackupRestore;
 import com.pellcorp.emailcommon.Logging;
 import com.pellcorp.emailcommon.provider.Account;
 import com.pellcorp.emailcommon.provider.EmailContent.AccountColumns;
+import com.google.common.annotations.VisibleForTesting;
 
 import java.io.Serializable;
 

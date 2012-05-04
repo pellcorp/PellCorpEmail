@@ -38,8 +38,6 @@ import android.text.SpannableString;
 import android.text.TextUtils;
 import android.util.Log;
 
-import com.pellcorp.email.R;
-import com.google.common.annotations.VisibleForTesting;
 import com.pellcorp.email.activity.ContactStatusLoader;
 import com.pellcorp.email.activity.Welcome;
 import com.pellcorp.email.activity.setup.AccountSecurity;
@@ -48,13 +46,14 @@ import com.pellcorp.emailcommon.Logging;
 import com.pellcorp.emailcommon.mail.Address;
 import com.pellcorp.emailcommon.provider.Account;
 import com.pellcorp.emailcommon.provider.EmailContent;
-import com.pellcorp.emailcommon.provider.Mailbox;
 import com.pellcorp.emailcommon.provider.EmailContent.AccountColumns;
 import com.pellcorp.emailcommon.provider.EmailContent.Attachment;
 import com.pellcorp.emailcommon.provider.EmailContent.MailboxColumns;
 import com.pellcorp.emailcommon.provider.EmailContent.Message;
 import com.pellcorp.emailcommon.provider.EmailContent.MessageColumns;
+import com.pellcorp.emailcommon.provider.Mailbox;
 import com.pellcorp.emailcommon.utility.Utility;
+import com.google.common.annotations.VisibleForTesting;
 
 import java.util.HashMap;
 import java.util.HashSet;

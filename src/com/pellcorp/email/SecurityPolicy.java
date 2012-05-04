@@ -27,16 +27,15 @@ import android.content.Intent;
 import android.database.Cursor;
 import android.util.Log;
 
-import com.pellcorp.email.R;
-import com.google.common.annotations.VisibleForTesting;
 import com.pellcorp.email.service.EmailBroadcastProcessorService;
 import com.pellcorp.emailcommon.Logging;
 import com.pellcorp.emailcommon.provider.Account;
 import com.pellcorp.emailcommon.provider.EmailContent;
-import com.pellcorp.emailcommon.provider.Policy;
 import com.pellcorp.emailcommon.provider.EmailContent.AccountColumns;
 import com.pellcorp.emailcommon.provider.EmailContent.PolicyColumns;
+import com.pellcorp.emailcommon.provider.Policy;
 import com.pellcorp.emailcommon.utility.Utility;
+import com.google.common.annotations.VisibleForTesting;
 
 /**
  * Utility functions to support reading and writing security policies, and handshaking the device
@@ -233,19 +232,9 @@ public class SecurityPolicy {
      * @return boolean if supported
      */
     public boolean isSupported(Policy policy) {
-        // IMPLEMENTATION:  At this time, the only policy which might not be supported is
-        // encryption (which requires low-level systems support).  Other policies are fully
-        // supported by the framework and do not need to be checked.
         if (policy.mRequireEncryption) {
-        //    int encryptionStatus = getDPM().getStorageEncryptionStatus();
-        //    if (encryptionStatus == DevicePolicyManager.ENCRYPTION_STATUS_UNSUPPORTED) {
                 return false;
-        //    }
         }
-
-        // If we ever support devices that can't disable cameras for any reason, we should
-        // indicate as such in the mDontAllowCamera policy
-
         return true;
     }
 
@@ -260,19 +249,9 @@ public class SecurityPolicy {
      *   unsupported policies were removed
      */
     public Policy clearUnsupportedPolicies(Policy policy) {
-        // IMPLEMENTATION:  At this time, the only policy which might not be supported is
-        // encryption (which requires low-level systems support).  Other policies are fully
-        // supported by the framework and do not need to be checked.
-        if (policy.mRequireEncryption) {
-            //int encryptionStatus = getDPM().getStorageEncryptionStatus();
-            //if (encryptionStatus == DevicePolicyManager.ENCRYPTION_STATUS_UNSUPPORTED) {
-                policy.mRequireEncryption = false;
-            //}
+	if (policy.mRequireEncryption) {
+		policy.mRequireEncryption = false;
         }
-
-        // If we ever support devices that can't disable cameras for any reason, we should
-        // clear the mDontAllowCamera policy
-
         return policy;
     }
 

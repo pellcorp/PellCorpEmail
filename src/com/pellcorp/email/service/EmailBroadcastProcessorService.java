@@ -36,8 +36,8 @@ import com.pellcorp.email.VendorPolicyLoader;
 import com.pellcorp.email.activity.setup.AccountSettings;
 import com.pellcorp.emailcommon.Logging;
 import com.pellcorp.emailcommon.provider.Account;
-import com.pellcorp.emailcommon.provider.HostAuth;
 import com.pellcorp.emailcommon.provider.EmailContent.AccountColumns;
+import com.pellcorp.emailcommon.provider.HostAuth;
 
 /**
  * The service that really handles broadcast intents on a worker thread.

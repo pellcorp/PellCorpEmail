@@ -26,8 +26,8 @@ import android.net.Uri;
 import android.util.Log;
 import android.util.LruCache;
 
-import com.google.common.annotations.VisibleForTesting;
 import com.pellcorp.email.Email;
+import com.google.common.annotations.VisibleForTesting;
 
 import java.util.ArrayList;
 import java.util.Arrays;

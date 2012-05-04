@@ -24,8 +24,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.pellcorp.email.R;
 import com.pellcorp.email.Email;
+import com.pellcorp.email.R;
 import com.pellcorp.emailcommon.Logging;
 import com.pellcorp.emailcommon.provider.EmailContent.Message;
 import com.pellcorp.emailcommon.utility.Utility;

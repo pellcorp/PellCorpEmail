@@ -40,8 +40,8 @@ import com.pellcorp.email.activity.UiUtilities;
 import com.pellcorp.email.activity.Welcome;
 import com.pellcorp.email.provider.AccountBackupRestore;
 import com.pellcorp.emailcommon.provider.Account;
-import com.pellcorp.emailcommon.provider.HostAuth;
 import com.pellcorp.emailcommon.provider.EmailContent.AccountColumns;
+import com.pellcorp.emailcommon.provider.HostAuth;
 import com.pellcorp.emailcommon.utility.EmailAsyncTask;
 import com.pellcorp.emailcommon.utility.Utility;
 

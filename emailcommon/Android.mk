@@ -14,7 +14,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-# Build the com.android.emailcommon static library. At the moment, this includes
+# Build the com.pellcorp.emailcommon static library. At the moment, this includes
 # the emailcommon files themselves plus everything under src/org (apache code).  All of our
 # AIDL files are also compiled into the static library
 

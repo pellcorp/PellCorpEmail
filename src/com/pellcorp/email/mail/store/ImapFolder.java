@@ -21,7 +21,6 @@ import android.text.TextUtils;
 import android.util.Base64DataException;
 import android.util.Log;
 
-import com.google.common.annotations.VisibleForTesting;
 import com.pellcorp.email.Email;
 import com.pellcorp.email.mail.store.ImapStore.ImapException;
 import com.pellcorp.email.mail.store.ImapStore.ImapMessage;
@@ -50,6 +49,7 @@ import com.pellcorp.emailcommon.mail.Part;
 import com.pellcorp.emailcommon.provider.Mailbox;
 import com.pellcorp.emailcommon.service.SearchParams;
 import com.pellcorp.emailcommon.utility.Utility;
+import com.google.common.annotations.VisibleForTesting;
 
 import java.io.IOException;
 import java.io.InputStream;

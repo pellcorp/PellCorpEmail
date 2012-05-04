@@ -30,9 +30,9 @@ import android.provider.ContactsContract.Data;
 import android.provider.ContactsContract.StatusUpdates;
 import android.util.Log;
 
-import com.google.common.annotations.VisibleForTesting;
 import com.pellcorp.emailcommon.Logging;
 import com.pellcorp.emailcommon.utility.Utility;
+import com.google.common.annotations.VisibleForTesting;
 
 /**
  * Loader to load presence statuses and the contact photo.

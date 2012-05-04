@@ -1,14 +1,14 @@
-public boolean isSupported(Policy policy) {
+    public boolean isSupported(Policy policy) {
         if (policy.mRequireEncryption) {
                 return false;
         }
         return true;
-}
+    }
 
-public Policy clearUnsupportedPolicies(Policy policy) {
+    public Policy clearUnsupportedPolicies(Policy policy) {
 	if (policy.mRequireEncryption) {
 		policy.mRequireEncryption = false;
         }
         return policy;
-}
+    }
 

@@ -24,8 +24,8 @@ import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
 
-import com.pellcorp.email.R;
 import com.pellcorp.email.Email;
+import com.pellcorp.email.R;
 import com.pellcorp.email.activity.ShortcutPickerFragment.AccountShortcutPickerFragment;
 import com.pellcorp.email.activity.ShortcutPickerFragment.MailboxShortcutPickerFragment;
 import com.pellcorp.email.activity.ShortcutPickerFragment.PickerCallback;

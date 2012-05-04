@@ -21,12 +21,12 @@ import android.content.Intent;
 import android.os.Parcel;
 import android.os.Parcelable;
 
-import com.google.common.base.Objects;
-import com.google.common.base.Preconditions;
 import com.pellcorp.email.activity.EmailActivity;
 import com.pellcorp.emailcommon.provider.Account;
 import com.pellcorp.emailcommon.provider.Mailbox;
 import com.pellcorp.emailcommon.service.SearchParams;
+import com.google.common.base.Objects;
+import com.google.common.base.Preconditions;
 
 /**
  * Information about what is being shown in a message list.

@@ -30,8 +30,8 @@ import com.pellcorp.emailcommon.mail.AuthenticationFailedException;
 import com.pellcorp.emailcommon.mail.CertificateValidationException;
 import com.pellcorp.emailcommon.mail.MessagingException;
 import com.pellcorp.emailcommon.provider.Account;
-import com.pellcorp.emailcommon.provider.HostAuth;
 import com.pellcorp.emailcommon.provider.EmailContent.Message;
+import com.pellcorp.emailcommon.provider.HostAuth;
 
 import java.io.IOException;
 import java.net.Inet6Address;

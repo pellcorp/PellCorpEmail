@@ -39,10 +39,9 @@ import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ListView;
 
-import com.pellcorp.email.R;
-import com.google.common.annotations.VisibleForTesting;
 import com.pellcorp.email.Controller;
 import com.pellcorp.email.Email;
+import com.pellcorp.email.R;
 import com.pellcorp.email.RefreshManager;
 import com.pellcorp.email.provider.EmailProvider;
 import com.pellcorp.emailcommon.Logging;
@@ -50,6 +49,7 @@ import com.pellcorp.emailcommon.provider.Account;
 import com.pellcorp.emailcommon.provider.Mailbox;
 import com.pellcorp.emailcommon.utility.EmailAsyncTask;
 import com.pellcorp.emailcommon.utility.Utility;
+import com.google.common.annotations.VisibleForTesting;
 
 import java.util.Timer;
 

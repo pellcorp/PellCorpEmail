@@ -23,10 +23,10 @@ import android.accounts.OperationCanceledException;
 import android.content.Context;
 import android.util.Log;
 
-import com.google.common.annotations.VisibleForTesting;
 import com.pellcorp.email.Controller;
 import com.pellcorp.emailcommon.Logging;
 import com.pellcorp.emailcommon.provider.Account;
+import com.google.common.annotations.VisibleForTesting;
 
 import java.io.IOException;
 import java.util.List;

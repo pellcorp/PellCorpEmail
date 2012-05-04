@@ -34,7 +34,6 @@ import android.os.SystemClock;
 import android.text.TextUtils;
 import android.util.Log;
 
-import com.google.common.annotations.VisibleForTesting;
 import com.pellcorp.email.Controller;
 import com.pellcorp.email.Email;
 import com.pellcorp.email.Preferences;
@@ -47,6 +46,7 @@ import com.pellcorp.emailcommon.provider.EmailContent;
 import com.pellcorp.emailcommon.provider.HostAuth;
 import com.pellcorp.emailcommon.provider.Mailbox;
 import com.pellcorp.emailcommon.utility.EmailAsyncTask;
+import com.google.common.annotations.VisibleForTesting;
 
 import java.util.ArrayList;
 import java.util.HashMap;

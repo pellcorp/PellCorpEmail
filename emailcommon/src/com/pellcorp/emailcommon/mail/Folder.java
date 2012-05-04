@@ -16,8 +16,8 @@
 
 package com.pellcorp.emailcommon.mail;
 
-import com.google.common.annotations.VisibleForTesting;
 import com.pellcorp.emailcommon.service.SearchParams;
+import com.google.common.annotations.VisibleForTesting;
 
 
 public abstract class Folder {

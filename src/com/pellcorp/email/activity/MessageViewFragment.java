@@ -31,14 +31,14 @@ import android.widget.ImageView;
 import android.widget.PopupMenu;
 import android.widget.PopupMenu.OnMenuItemClickListener;
 
-import com.pellcorp.email.R;
 import com.pellcorp.email.Email;
 import com.pellcorp.email.Preferences;
+import com.pellcorp.email.R;
 import com.pellcorp.emailcommon.mail.MeetingInfo;
 import com.pellcorp.emailcommon.mail.PackedString;
 import com.pellcorp.emailcommon.provider.Account;
-import com.pellcorp.emailcommon.provider.Mailbox;
 import com.pellcorp.emailcommon.provider.EmailContent.Message;
+import com.pellcorp.emailcommon.provider.Mailbox;
 import com.pellcorp.emailcommon.service.EmailServiceConstants;
 import com.pellcorp.emailcommon.utility.Utility;
 

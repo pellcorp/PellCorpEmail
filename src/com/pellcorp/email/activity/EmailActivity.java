@@ -29,20 +29,20 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
 
-import com.pellcorp.email.R;
-import com.google.common.base.Preconditions;
 import com.pellcorp.email.Controller;
 import com.pellcorp.email.ControllerResultUiThreadWrapper;
 import com.pellcorp.email.Email;
 import com.pellcorp.email.MessageListContext;
 import com.pellcorp.email.MessagingExceptionStrings;
+import com.pellcorp.email.R;
 import com.pellcorp.emailcommon.Logging;
 import com.pellcorp.emailcommon.mail.MessagingException;
 import com.pellcorp.emailcommon.provider.Account;
-import com.pellcorp.emailcommon.provider.Mailbox;
 import com.pellcorp.emailcommon.provider.EmailContent.Message;
+import com.pellcorp.emailcommon.provider.Mailbox;
 import com.pellcorp.emailcommon.utility.EmailAsyncTask;
 import com.pellcorp.emailcommon.utility.IntentUtilities;
+import com.google.common.base.Preconditions;
 
 import java.util.ArrayList;
 

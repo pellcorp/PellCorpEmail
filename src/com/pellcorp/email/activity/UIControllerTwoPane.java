@@ -22,19 +22,19 @@ import android.content.Context;
 import android.os.Bundle;
 import android.util.Log;
 
-import com.pellcorp.email.R;
-import com.google.common.annotations.VisibleForTesting;
 import com.pellcorp.email.Clock;
 import com.pellcorp.email.Email;
 import com.pellcorp.email.MessageListContext;
 import com.pellcorp.email.Preferences;
+import com.pellcorp.email.R;
 import com.pellcorp.email.RefreshManager;
 import com.pellcorp.emailcommon.Logging;
 import com.pellcorp.emailcommon.provider.Account;
-import com.pellcorp.emailcommon.provider.Mailbox;
 import com.pellcorp.emailcommon.provider.EmailContent.Message;
+import com.pellcorp.emailcommon.provider.Mailbox;
 import com.pellcorp.emailcommon.utility.EmailAsyncTask;
 import com.pellcorp.emailcommon.utility.Utility;
+import com.google.common.annotations.VisibleForTesting;
 
 import java.util.Set;
 

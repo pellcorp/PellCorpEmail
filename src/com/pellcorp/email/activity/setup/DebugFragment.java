@@ -16,9 +16,9 @@
 
 package com.pellcorp.email.activity.setup;
 
-import com.pellcorp.email.R;
 import com.pellcorp.email.Email;
 import com.pellcorp.email.Preferences;
+import com.pellcorp.email.R;
 import com.pellcorp.email.activity.UiUtilities;
 import com.pellcorp.email.service.EmailServiceUtils;
 import com.pellcorp.email.service.MailService;

@@ -32,8 +32,8 @@ import android.util.Log;
 
 import com.pellcorp.email.Controller;
 import com.pellcorp.emailcommon.provider.EmailContent;
-import com.pellcorp.emailcommon.provider.Mailbox;
 import com.pellcorp.emailcommon.provider.EmailContent.AccountColumns;
+import com.pellcorp.emailcommon.provider.Mailbox;
 
 public class PopImapSyncAdapterService extends Service {
     private static final String TAG = "PopImapSyncAdapterService";

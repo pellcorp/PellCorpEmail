@@ -18,10 +18,10 @@ package com.pellcorp.email.activity;
 
 import com.pellcorp.email.R;
 import com.pellcorp.emailcommon.provider.Account;
-import com.pellcorp.emailcommon.provider.HostAuth;
-import com.pellcorp.emailcommon.provider.Mailbox;
 import com.pellcorp.emailcommon.provider.EmailContent.AccountColumns;
 import com.pellcorp.emailcommon.provider.EmailContent.MailboxColumns;
+import com.pellcorp.emailcommon.provider.HostAuth;
+import com.pellcorp.emailcommon.provider.Mailbox;
 
 import android.app.Activity;
 import android.app.FragmentTransaction;

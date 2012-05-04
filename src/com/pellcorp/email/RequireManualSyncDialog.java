@@ -16,7 +16,6 @@
 
 package com.pellcorp.email;
 
-import com.pellcorp.email.R;
 import com.pellcorp.emailcommon.provider.Account;
 
 import android.app.AlertDialog;

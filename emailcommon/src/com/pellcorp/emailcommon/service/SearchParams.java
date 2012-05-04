@@ -19,8 +19,8 @@ package com.pellcorp.emailcommon.service;
 import android.os.Parcel;
 import android.os.Parcelable;
 
-import com.google.common.base.Objects;
 import com.pellcorp.emailcommon.provider.Mailbox;
+import com.google.common.base.Objects;
 
 public class SearchParams implements Parcelable {
     public static final long ALL_MAILBOXES = Mailbox.NO_MAILBOX;

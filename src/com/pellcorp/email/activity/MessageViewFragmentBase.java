@@ -55,13 +55,12 @@ import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
-import com.pellcorp.email.R;
-import com.google.common.collect.Maps;
 import com.pellcorp.email.AttachmentInfo;
 import com.pellcorp.email.Controller;
 import com.pellcorp.email.ControllerResultUiThreadWrapper;
 import com.pellcorp.email.Email;
 import com.pellcorp.email.Preferences;
+import com.pellcorp.email.R;
 import com.pellcorp.email.Throttle;
 import com.pellcorp.email.mail.internet.EmailHtmlUtil;
 import com.pellcorp.email.service.AttachmentDownloadService;
@@ -69,13 +68,14 @@ import com.pellcorp.emailcommon.Logging;
 import com.pellcorp.emailcommon.mail.Address;
 import com.pellcorp.emailcommon.mail.MessagingException;
 import com.pellcorp.emailcommon.provider.Account;
-import com.pellcorp.emailcommon.provider.Mailbox;
 import com.pellcorp.emailcommon.provider.EmailContent.Attachment;
 import com.pellcorp.emailcommon.provider.EmailContent.Body;
 import com.pellcorp.emailcommon.provider.EmailContent.Message;
+import com.pellcorp.emailcommon.provider.Mailbox;
 import com.pellcorp.emailcommon.utility.AttachmentUtilities;
 import com.pellcorp.emailcommon.utility.EmailAsyncTask;
 import com.pellcorp.emailcommon.utility.Utility;
+import com.google.common.collect.Maps;
 
 import org.apache.commons.io.IOUtils;
 

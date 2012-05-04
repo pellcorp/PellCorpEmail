@@ -30,8 +30,8 @@ import com.pellcorp.email.activity.ShortcutPickerFragment.MailboxShortcutPickerF
 import com.pellcorp.email.activity.ShortcutPickerFragment.PickerCallback;
 import com.pellcorp.emailcommon.Logging;
 import com.pellcorp.emailcommon.provider.Account;
-import com.pellcorp.emailcommon.provider.Mailbox;
 import com.pellcorp.emailcommon.provider.EmailContent.Message;
+import com.pellcorp.emailcommon.provider.Mailbox;
 
 /**
  * This class implements a launcher shortcut for directly accessing a single account.

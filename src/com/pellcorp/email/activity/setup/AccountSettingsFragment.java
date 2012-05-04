@@ -41,8 +41,8 @@ import android.provider.ContactsContract;
 import android.text.TextUtils;
 import android.util.Log;
 
-import com.pellcorp.email.R;
 import com.pellcorp.email.Email;
+import com.pellcorp.email.R;
 import com.pellcorp.email.mail.Sender;
 import com.pellcorp.emailcommon.AccountManagerTypes;
 import com.pellcorp.emailcommon.CalendarProviderStub;

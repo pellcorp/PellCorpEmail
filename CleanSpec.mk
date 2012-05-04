@@ -39,10 +39,26 @@
 # ************************************************
 
 # For example:
+#$(call add-clean-step, rm -rf $(OUT_DIR)/target/common/obj/APPS/AndroidTests_intermediates)
+#$(call add-clean-step, rm -rf $(OUT_DIR)/target/common/obj/JAVA_LIBRARIES/core_intermediates)
+#$(call add-clean-step, find $(OUT_DIR) -type f -name "IGTalkSession*" -print0 | xargs -0 rm -f)
+#$(call add-clean-step, rm -rf $(PRODUCT_OUT)/data/*)
+$(call add-clean-step, rm -rf $(OUT_DIR)/out/target/common/obj/APPS/PellCorpEmail*)
+$(call add-clean-step, rm -rf $(OUT_DIR)/out/target/common/obj/APPS/PellCorpEmail*)
+$(call add-clean-step, rm -rf $(OUT_DIR)/out/target/common/obj/APPS/PellCorpExchange*)
+$(call add-clean-step, rm -rf $(PRODUCT_OUT)/obj/JAVA_LIBRARIES/com.pellcorp.emailcommon*)
+$(call add-clean-step, rm -rf $(OUT_DIR)/out/target/common/obj/JAVA_LIBRARIES/android_stubs_current_intermediates/classes/com/android/emailcommon*)
+$(call add-clean-step, rm -rf $(OUT_DIR)/out/target/common/obj/JAVA_LIBRARIES/com.pellcorp.emailcommon*)
+$(call add-clean-step, rm -rf $(OUT_DIR)/target/common/obj/APPS/EmailGoogle_intermediates)
 $(call add-clean-step, rm -rf $(OUT_DIR)/target/common/obj/APPS/PellCorpEmail_intermediates)
-$(call add-clean-step, rm -rf $(OUT_DIR)/target/common/obj/APPS/PellCorpExchange_intermediates)
-$(call add-clean-step, rm -rf $(OUT_DIR)/out/target/common/obj/APPS/PellCorp*)
-$(call add-clean-step, rm -rf $(OUT_DIR)/out/target/common/JAVA_LIBRARIES/com.pellcorp.emailcommon_intermediates*)
+$(call add-clean-step, rm -rf $(OUT_DIR)/target/common/obj/JAVA_LIBRARIES/com.pellcorp.emailcommon_intermediates)
+$(call add-clean-step, rm -rf $(OUT_DIR)/target/common/obj/JAVA_LIBRARIES/com.pellcorp.emailcommon_intermediates)
+$(call add-clean-step, rm -rf $(OUT_DIR)/target/common/obj/JAVA_LIBRARIES/com.pellcorp.emailcommon_intermediates)
+$(call add-clean-step, rm -rf $(OUT_DIR)/target/common/obj/JAVA_LIBRARIES/com.pellcorp.emailcommon_intermediates)
+$(call add-clean-step, rm -rf $(OUT_DIR)/target/common/obj/APPS/PellCorpEmail_intermediates)
+$(call add-clean-step, rm -rf $(OUT_DIR)/target/common/obj/APPS/EmailGoogle_intermediates)
+$(call add-clean-step, rm -rf $(OUT_DIR)/target/common/obj/APPS/PellCorpEmail_intermediates)
+$(call add-clean-step, rm -rf $(OUT_DIR)/target/common/obj/APPS/EmailGoogle_intermediates)
 
 # ************************************************
 # NEWER CLEAN STEPS MUST BE AT THE END OF THE LIST

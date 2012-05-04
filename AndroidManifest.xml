@@ -17,9 +17,10 @@
 <manifest
     xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.pellcorp.email"
-    android:versionCode="03052012"
-    android:versionName="03052012">
-	
+    android:versionCode="410000"
+    android:versionName="4.1"
+    >
+
     <original-package
         android:name="com.pellcorp.email" />
 
@@ -67,8 +68,8 @@
         android:protectionLevel="dangerous"
         android:label="@string/permission_read_attachment_label"
         android:description="@string/permission_read_attachment_desc"/>
-
-    <uses-permission android:name="com.pellcorp.email.permission.READ_ATTACHMENT"/>
+    <uses-permission
+        android:name="com.pellcorp.email.permission.READ_ATTACHMENT"/>
 
     <uses-permission
         android:name="android.permission.USE_CREDENTIALS"/>
@@ -79,7 +80,6 @@
         android:protectionLevel="signature"
         android:label="@string/permission_access_provider_label"
         android:description="@string/permission_access_provider_desc"/>
-    
     <uses-permission
         android:name="com.pellcorp.email.permission.ACCESS_PROVIDER"/>
 

@@ -20,7 +20,6 @@ import android.content.Context;
 import android.os.Bundle;
 import android.util.Log;
 
-import com.google.common.annotations.VisibleForTesting;
 import com.pellcorp.email.Email;
 import com.pellcorp.email.mail.store.ExchangeStore;
 import com.pellcorp.email.mail.store.ImapStore;
@@ -32,6 +31,7 @@ import com.pellcorp.emailcommon.provider.Account;
 import com.pellcorp.emailcommon.provider.EmailContent;
 import com.pellcorp.emailcommon.provider.HostAuth;
 import com.pellcorp.emailcommon.provider.Mailbox;
+import com.google.common.annotations.VisibleForTesting;
 
 import java.lang.reflect.Method;
 import java.util.HashMap;

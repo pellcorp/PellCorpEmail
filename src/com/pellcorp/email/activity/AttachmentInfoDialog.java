@@ -16,8 +16,8 @@
 
 package com.pellcorp.email.activity;
 
-import com.pellcorp.email.R;
 import com.pellcorp.email.AttachmentInfo;
+import com.pellcorp.email.R;
 
 import android.app.AlertDialog;
 import android.app.Dialog;

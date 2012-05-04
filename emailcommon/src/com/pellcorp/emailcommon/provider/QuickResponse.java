@@ -17,9 +17,9 @@
 
 package com.pellcorp.emailcommon.provider;
 
-import com.google.common.base.Objects;
 import com.pellcorp.emailcommon.provider.EmailContent;
 import com.pellcorp.emailcommon.provider.EmailContent.QuickResponseColumns;
+import com.google.common.base.Objects;
 
 import android.content.ContentUris;
 import android.content.ContentValues;

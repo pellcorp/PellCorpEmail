@@ -16,7 +16,6 @@
 
 package com.pellcorp.email;
 
-import com.pellcorp.email.R;
 import com.android.ex.chips.BaseRecipientAdapter;
 import com.android.ex.chips.RecipientEditTextView;
 

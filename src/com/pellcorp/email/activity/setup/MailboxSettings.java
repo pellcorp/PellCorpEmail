@@ -31,18 +31,18 @@ import android.preference.PreferenceActivity;
 import android.util.Log;
 import android.view.MenuItem;
 
-import com.pellcorp.email.R;
-import com.google.common.base.Objects;
-import com.google.common.base.Preconditions;
 import com.pellcorp.email.Email;
 import com.pellcorp.email.FolderProperties;
+import com.pellcorp.email.R;
 import com.pellcorp.email.RefreshManager;
 import com.pellcorp.emailcommon.Logging;
 import com.pellcorp.emailcommon.provider.Account;
-import com.pellcorp.emailcommon.provider.Mailbox;
 import com.pellcorp.emailcommon.provider.EmailContent.AccountColumns;
 import com.pellcorp.emailcommon.provider.EmailContent.MailboxColumns;
+import com.pellcorp.emailcommon.provider.Mailbox;
 import com.pellcorp.emailcommon.utility.EmailAsyncTask;
+import com.google.common.base.Objects;
+import com.google.common.base.Preconditions;
 
 /**
  * "Mailbox settings" activity.

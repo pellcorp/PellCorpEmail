@@ -30,9 +30,9 @@ import android.os.Parcel;
 import android.os.Parcelable;
 import android.os.RemoteException;
 
-import com.google.common.annotations.VisibleForTesting;
 import com.pellcorp.emailcommon.utility.TextUtilities;
 import com.pellcorp.emailcommon.utility.Utility;
+import com.google.common.annotations.VisibleForTesting;
 
 import java.io.File;
 import java.util.ArrayList;

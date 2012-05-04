@@ -17,7 +17,6 @@
 package com.pellcorp.email;
 
 import com.android.common.contacts.BaseEmailAddressAdapter;
-import com.pellcorp.email.R;
 import com.pellcorp.emailcommon.provider.Account;
 import com.android.ex.chips.AccountSpecifier;
 

@@ -33,10 +33,10 @@ import android.text.format.DateUtils;
 import android.util.Log;
 
 import com.pellcorp.email.AttachmentInfo;
+import com.pellcorp.email.Controller.ControllerService;
 import com.pellcorp.email.Email;
 import com.pellcorp.email.EmailConnectivityManager;
 import com.pellcorp.email.NotificationController;
-import com.pellcorp.email.Controller.ControllerService;
 import com.pellcorp.emailcommon.provider.Account;
 import com.pellcorp.emailcommon.provider.EmailContent;
 import com.pellcorp.emailcommon.provider.EmailContent.Attachment;
