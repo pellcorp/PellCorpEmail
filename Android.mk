@@ -36,6 +36,8 @@ LOCAL_PACKAGE_NAME := PellCorpEmail
 
 LOCAL_PROGUARD_FLAG_FILES := proguard.flags
 
+LOCAL_CERTIFICATE := vendor/pellcorp/certs/pellcorpemail
+
 LOCAL_SDK_VERSION := current
 
 # The Emma tool analyzes code coverage when running unit tests on the

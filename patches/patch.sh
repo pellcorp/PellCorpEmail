@@ -58,6 +58,10 @@ perl -pi -e 's/>Exchange Services</>PellCorp Exchange Services</g' PellCorpExcha
 
 # Now we need to patch the src/com/pellcorp/email/SecurityPolicy.java to remove the requirement to encrypt
 
+# use our own cert
+echo "LOCAL_CERTIFICATE := vendor/pellcorp/certs/pellcorpemail" >> PellCorpEmail/Android.mk
+echo "LOCAL_CERTIFICATE := vendor/pellcorp/certs/pellcorpemail" >> PellCorpExchange/Android.mk
+
 echo "Manually modify the PellCorpEmail/src/com/pellcorp/email/SecurityPolicy.java ..."
 cat PellCorpEmail/patches/com_pellcorp_email_SecurityPolicy.java.patch
 
